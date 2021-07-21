@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Jul 20 14:59:34 2021
+# Process ID: 4084
+# Current directory: C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -mode batch -source make_prog_files.tcl -notrace
+# Log file: C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+source make_prog_files.tcl -notrace

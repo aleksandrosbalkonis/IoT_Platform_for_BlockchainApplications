@@ -1,0 +1,617 @@
+Dependencies for Project 'm3_for_arty_a7', Target 'm3_for_arty_a7': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\cmsis\Device\Source\ARTY_CM3\system_ARTY_CM3.c)(0x5D27354F)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\system_arty_cm3.o --omf_browse .\objects\system_arty_cm3.crf --depend .\objects\system_arty_cm3.d)
+I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x60E82B8E)
+I (..\cmsis\CMSIS\Include\core_CM3.h)(0x5D27354F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (..\cmsis\CMSIS\Include\core_cmInstr.h)(0x5D27354F)
+I (..\cmsis\CMSIS\Include\core_cmFunc.h)(0x5D27354F)
+I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5D27354F)
+F (..\cmsis\Device\Source\ARTY_CM3\ARM\startup_ARTY_CM3.s)(0x60E82B52)(--cpu Cortex-M3 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1" --pd "_RTE_ SETA 1"--list .\objects\startup_arty_cm3.lst --xref -o .\objects\startup_arty_cm3.o --depend .\objects\startup_arty_cm3.d)
+F (..\main\atomic_asm.s)(0x5D134FB7)(--cpu Cortex-M3 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1" --pd "_RTE_ SETA 1"--list .\objects\atomic_asm.lst --xref -o .\objects\atomic_asm.o --depend .\objects\atomic_asm.d)
+F (..\main\main.c)(0x60F6B06B)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x60E597A8)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x60E597A8)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+I (..\main\m3_for_arty.h)(0x5D27354F)
+I (..\cmsis\Device\Include\peripherallink.h)(0x5D27354F)
+I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x60E82B8E)
+I (..\cmsis\CMSIS\Include\core_CM3.h)(0x5D27354F)
+I (..\cmsis\CMSIS\Include\core_cmInstr.h)(0x5D27354F)
+I (..\cmsis\CMSIS\Include\core_cmFunc.h)(0x5D27354F)
+I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5D27354F)
+I (..\gpio\gpio.h)(0x60F5627F)
+I (..\uart\uart.h)(0x60F56297)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x60E597A9)
+I (..\spi\spi.h)(0x5D27354F)
+I (..\main\atomic.h)(0x5D27354F)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xsysmon.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xsysmon_hw.h)(0x60E597A9)
+F (..\main\atomic.c)(0x5D27354F)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\atomic.o --omf_browse .\objects\atomic.crf --depend .\objects\atomic.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E8312)
+I (..\main\atomic.h)(0x5D27354F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+F (..\gpio\gpio.c)(0x60F6B647)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (..\gpio\gpio.h)(0x60F5627F)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x60E597A8)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x60E597A8)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+I (..\cmsis\Device\Include\peripherallink.h)(0x5D27354F)
+I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x60E82B8E)
+I (..\cmsis\CMSIS\Include\core_CM3.h)(0x5D27354F)
+I (..\cmsis\CMSIS\Include\core_cmInstr.h)(0x5D27354F)
+I (..\cmsis\CMSIS\Include\core_cmFunc.h)(0x5D27354F)
+I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5D27354F)
+F (..\spi\spi.c)(0x5D27354F)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E8312)
+I (..\main\m3_for_arty.h)(0x5D27354F)
+I (..\cmsis\Device\Include\peripherallink.h)(0x5D27354F)
+I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x60E82B8E)
+I (..\cmsis\CMSIS\Include\core_CM3.h)(0x5D27354F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (..\cmsis\CMSIS\Include\core_cmInstr.h)(0x5D27354F)
+I (..\cmsis\CMSIS\Include\core_cmFunc.h)(0x5D27354F)
+I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5D27354F)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi.h)(0x60E597A8)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xspi_l.h)(0x60E597A8)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\uart\uart.c)(0x60F591E7)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5E8E8312)
+I (..\main\m3_for_arty.h)(0x5D27354F)
+I (..\cmsis\Device\Include\peripherallink.h)(0x5D27354F)
+I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x60E82B8E)
+I (..\cmsis\CMSIS\Include\core_CM3.h)(0x5D27354F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (..\cmsis\CMSIS\Include\core_cmInstr.h)(0x5D27354F)
+I (..\cmsis\CMSIS\Include\core_cmFunc.h)(0x5D27354F)
+I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5D27354F)
+I (..\uart\uart.h)(0x60F56297)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+I (..\gpio\gpio.h)(0x60F5627F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E8312)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi.c)(0x5ECEFDCF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi.o --omf_browse .\objects\xspi.crf --depend .\objects\xspi.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_l.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_i.h)(0x5ECEFDCF)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_g.c)(0x60E59786)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi_g.o --omf_browse .\objects\xspi_g.crf --depend .\objects\xspi_g.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_l.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_options.c)(0x5ECEFDCF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi_options.o --omf_browse .\objects\xspi_options.crf --depend .\objects\xspi_options.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_l.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_i.h)(0x5ECEFDCF)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_selftest.c)(0x5ECEFDCF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi_selftest.o --omf_browse .\objects\xspi_selftest.crf --depend .\objects\xspi_selftest.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_l.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_i.h)(0x5ECEFDCF)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_sinit.c)(0x5ECEFDCF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi_sinit.o --omf_browse .\objects\xspi_sinit.crf --depend .\objects\xspi_sinit.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_l.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_stats.c)(0x5ECEFDCF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xspi_stats.o --omf_browse .\objects\xspi_stats.crf --depend .\objects\xspi_stats.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_l.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\spi_v4_6\src\xspi_i.h)(0x5ECEFDCF)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite.c)(0x5ECEFDD1)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite.o --omf_browse .\objects\xuartlite.crf --depend .\objects\xuartlite.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_i.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_l.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_g.c)(0x60E59786)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_g.o --omf_browse .\objects\xuartlite_g.crf --depend .\objects\xuartlite_g.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_intr.c)(0x5ECEFDD1)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_intr.o --omf_browse .\objects\xuartlite_intr.crf --depend .\objects\xuartlite_intr.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_i.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_l.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_l.c)(0x5ECEFDD1)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_l.o --omf_browse .\objects\xuartlite_l.crf --depend .\objects\xuartlite_l.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_l.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_selftest.c)(0x5ECEFDD1)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_selftest.o --omf_browse .\objects\xuartlite_selftest.crf --depend .\objects\xuartlite_selftest.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_i.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_l.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_sinit.c)(0x5ECEFDD0)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_sinit.o --omf_browse .\objects\xuartlite_sinit.crf --depend .\objects\xuartlite_sinit.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_i.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_l.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_stats.c)(0x5ECEFDD0)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xuartlite_stats.o --omf_browse .\objects\xuartlite_stats.crf --depend .\objects\xuartlite_stats.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_i.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_4\src\xuartlite_l.h)(0x5ECEFDD1)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio.c)(0x5ECEFDC9)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio.o --omf_browse .\objects\xgpio.crf --depend .\objects\xgpio.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_l.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_extra.c)(0x5ECEFDC9)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio_extra.o --omf_browse .\objects\xgpio_extra.crf --depend .\objects\xgpio_extra.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_l.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_i.h)(0x5ECEFDC9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_g.c)(0x60E59786)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio_g.o --omf_browse .\objects\xgpio_g.crf --depend .\objects\xgpio_g.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_l.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_intr.c)(0x5ECEFDC9)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio_intr.o --omf_browse .\objects\xgpio_intr.crf --depend .\objects\xgpio_intr.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_l.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_selftest.c)(0x5ECEFDC9)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio_selftest.o --omf_browse .\objects\xgpio_selftest.crf --depend .\objects\xgpio_selftest.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_l.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_sinit.c)(0x5ECEFDC9)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xgpio_sinit.o --omf_browse .\objects\xgpio_sinit.crf --depend .\objects\xgpio_sinit.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_i.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_6\src\xgpio_l.h)(0x5ECEFDC9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\outbyte.c)(0x60E59786)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\outbyte.o --omf_browse .\objects\outbyte.crf --depend .\objects\outbyte.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\print.c)(0x5D134FAF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\print.o --omf_browse .\objects\print.crf --depend .\objects\print.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\xil_printf.h)(0x5D134FAF)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\xil_types.h)(0x5D134FAF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\bspconfig.h)(0x60E59786)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\xil_assert.c)(0x5D134FAF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xil_assert.o --omf_browse .\objects\xil_assert.crf --depend .\objects\xil_assert.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\xil_types.h)(0x5D134FAF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\xil_assert.h)(0x60F5626B)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\xil_printf.c)(0x5D134FAF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xil_printf.o --omf_browse .\objects\xil_printf.crf --depend .\objects\xil_printf.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\xil_printf.h)(0x5D134FAF)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\xil_types.h)(0x5D134FAF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\bspconfig.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v7_2\src\xil_assert.h)(0x60F5626B)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon.c)(0x5ECEFDCF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xsysmon.o --omf_browse .\objects\xsysmon.crf --depend .\objects\xsysmon.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon_hw.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon_g.c)(0x60E59786)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xsysmon_g.o --omf_browse .\objects\xsysmon_g.crf --depend .\objects\xsysmon_g.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon_hw.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon_intr.c)(0x5ECEFDCF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xsysmon_intr.o --omf_browse .\objects\xsysmon_intr.crf --depend .\objects\xsysmon_intr.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon_hw.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon_selftest.c)(0x5ECEFDCF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xsysmon_selftest.o --omf_browse .\objects\xsysmon_selftest.crf --depend .\objects\xsysmon_selftest.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon_hw.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon_sinit.c)(0x5ECEFDCF)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL --li -g -O1 --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include-I.\RTE\_m3_for_arty_a7-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\chist\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="534" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3-o .\objects\xsysmon_sinit.o --omf_browse .\objects\xsysmon_sinit.crf --depend .\objects\xsysmon_sinit.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x60E59786)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x60F56228)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\sysmon_v7_6\src\xsysmon_hw.h)(0x5ECEFDCF)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x60E597A9)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E8312)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E8312)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x60E597A9)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_gcc.h)(0x60E597A9)

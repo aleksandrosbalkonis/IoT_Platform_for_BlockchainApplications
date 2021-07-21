@@ -1,0 +1,1326 @@
+TRACE::2021-06-17.00:04:00::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:00::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:00::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:02::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-06-17.00:04:02::SCWPlatform::Opened new HwDB with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:02::SCWWriter::formatted JSON is {
+	"platformName":	"m3_for_arty_a7",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"m3_for_arty_a7",
+	"platHandOff":	"V:/software/m3_for_arty_a7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/m3_for_arty_a7_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2021-06-17.00:04:02::SCWWriter::formatted JSON is {
+	"platformName":	"m3_for_arty_a7",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"m3_for_arty_a7",
+	"platHandOff":	"V:/software/m3_for_arty_a7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/m3_for_arty_a7_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"m3_for_arty_a7",
+	"systems":	[{
+			"systemName":	"m3_for_arty_a7",
+			"systemDesc":	"m3_for_arty_a7",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"m3_for_arty_a7"
+		}]
+}
+TRACE::2021-06-17.00:04:02::SCWPlatform::Boot application domains not present, creating them
+TRACE::2021-06-17.00:04:02::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2021-06-17.00:04:02::SCWWriter::formatted JSON is {
+	"platformName":	"m3_for_arty_a7",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"m3_for_arty_a7",
+	"platHandOff":	"V:/software/m3_for_arty_a7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/m3_for_arty_a7_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"m3_for_arty_a7",
+	"systems":	[{
+			"systemName":	"m3_for_arty_a7",
+			"systemDesc":	"m3_for_arty_a7",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"m3_for_arty_a7"
+		}]
+}
+TRACE::2021-06-17.00:04:02::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:02::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:02::SCWDomain::checking for install qemu data   : 
+TRACE::2021-06-17.00:04:02::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:02::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:02::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:02::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:02::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:02::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:02::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:02::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:02::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-06-17.00:04:02::SCWMssOS::No sw design opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:02::SCWMssOS::mss does not exists at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:02::SCWMssOS::Creating sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:02::SCWMssOS::Adding the swdes entry, created swdb C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss with des name C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:02::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:02::SCWMssOS::Writing mss at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:02::SCWMssOS::Completed writing the mss file at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp
+TRACE::2021-06-17.00:04:02::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2021-06-17.00:04:02::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2021-06-17.00:04:02::SCWMssOS::Completed writing the mss file at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp
+TRACE::2021-06-17.00:04:02::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2021-06-17.00:04:03::SCWMssOS::Saving the mss changes C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-17.00:04:03::SCWMssOS::Running validate of swdbs.
+KEYINFO::2021-06-17.00:04:03::SCWMssOS::Could not open the swdb for C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+KEYINFO::2021-06-17.00:04:03::SCWMssOS::Could not open the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-06-17.00:04:03::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-06-17.00:04:03::SCWMssOS::Writing the mss file completed C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::Commit changes completed.
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWWriter::formatted JSON is {
+	"platformName":	"m3_for_arty_a7",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"m3_for_arty_a7",
+	"platHandOff":	"V:/software/m3_for_arty_a7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/m3_for_arty_a7_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"m3_for_arty_a7",
+	"systems":	[{
+			"systemName":	"m3_for_arty_a7",
+			"systemDesc":	"m3_for_arty_a7",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"m3_for_arty_a7",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"Cortex_M3_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"05a65ae91b2723e4ba904deadb2a162c",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-06-17.00:04:03::SCWPlatform::Started generating the artifacts platform m3_for_arty_a7
+TRACE::2021-06-17.00:04:03::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-06-17.00:04:03::SCWPlatform::Started generating the artifacts for system configuration m3_for_arty_a7
+LOG::2021-06-17.00:04:03::SCWSystem::Checking the domain standalone_domain
+LOG::2021-06-17.00:04:03::SCWSystem::Not a boot domain 
+LOG::2021-06-17.00:04:03::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-06-17.00:04:03::SCWDomain::Generating domain artifcats
+TRACE::2021-06-17.00:04:03::SCWMssOS::Generating standalone artifcats
+TRACE::2021-06-17.00:04:03::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::Completed writing the mss file at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp
+TRACE::2021-06-17.00:04:03::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-06-17.00:04:03::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-06-17.00:04:03::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2021-06-17.00:04:03::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-06-17.00:04:03::SCWMssOS::Copying to export directory.
+TRACE::2021-06-17.00:04:03::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-06-17.00:04:03::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-06-17.00:04:03::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-06-17.00:04:03::SCWSystem::Completed Processing the sysconfig m3_for_arty_a7
+LOG::2021-06-17.00:04:03::SCWPlatform::Completed generating the artifacts for system configuration m3_for_arty_a7
+TRACE::2021-06-17.00:04:03::SCWPlatform::Started preparing the platform 
+TRACE::2021-06-17.00:04:03::SCWSystem::Writing the bif file for system config m3_for_arty_a7
+TRACE::2021-06-17.00:04:03::SCWSystem::dir created 
+TRACE::2021-06-17.00:04:03::SCWSystem::Writing the bif 
+TRACE::2021-06-17.00:04:03::SCWPlatform::Started writing the spfm file 
+TRACE::2021-06-17.00:04:03::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-06-17.00:04:03::SCWPlatform::Completed generating the platform
+TRACE::2021-06-17.00:04:03::SCWMssOS::Saving the mss changes C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-17.00:04:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-17.00:04:03::SCWMssOS::Commit changes completed.
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWWriter::formatted JSON is {
+	"platformName":	"m3_for_arty_a7",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"m3_for_arty_a7",
+	"platHandOff":	"V:/software/m3_for_arty_a7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/m3_for_arty_a7_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"m3_for_arty_a7",
+	"systems":	[{
+			"systemName":	"m3_for_arty_a7",
+			"systemDesc":	"m3_for_arty_a7",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"m3_for_arty_a7",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"Cortex_M3_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"05a65ae91b2723e4ba904deadb2a162c",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-06-17.00:04:03::SCWPlatform::updated the xpfm file.
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::Saving the mss changes C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-17.00:04:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-17.00:04:03::SCWMssOS::Commit changes completed.
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWWriter::formatted JSON is {
+	"platformName":	"m3_for_arty_a7",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"m3_for_arty_a7",
+	"platHandOff":	"V:/software/m3_for_arty_a7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/m3_for_arty_a7_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"m3_for_arty_a7",
+	"systems":	[{
+			"systemName":	"m3_for_arty_a7",
+			"systemDesc":	"m3_for_arty_a7",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"m3_for_arty_a7",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"Cortex_M3_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"05a65ae91b2723e4ba904deadb2a162c",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::Saving the mss changes C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-17.00:04:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-17.00:04:03::SCWMssOS::Commit changes completed.
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWWriter::formatted JSON is {
+	"platformName":	"m3_for_arty_a7",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"m3_for_arty_a7",
+	"platHandOff":	"V:/software/m3_for_arty_a7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/m3_for_arty_a7_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"m3_for_arty_a7",
+	"systems":	[{
+			"systemName":	"m3_for_arty_a7",
+			"systemDesc":	"m3_for_arty_a7",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"m3_for_arty_a7",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on Cortex_M3_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"Cortex_M3_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"05a65ae91b2723e4ba904deadb2a162c",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-06-17.00:04:03::SCWMssOS::Saving the mss changes C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-17.00:04:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-17.00:04:03::SCWMssOS::Commit changes completed.
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:03::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:03::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWWriter::formatted JSON is {
+	"platformName":	"m3_for_arty_a7",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"m3_for_arty_a7",
+	"platHandOff":	"V:/software/m3_for_arty_a7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/m3_for_arty_a7_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"m3_for_arty_a7",
+	"systems":	[{
+			"systemName":	"m3_for_arty_a7",
+			"systemDesc":	"m3_for_arty_a7",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"m3_for_arty_a7",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on Cortex_M3_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"Cortex_M3_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"05a65ae91b2723e4ba904deadb2a162c",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-06-17.00:04:03::SCWPlatform::Clearing the existing platform
+TRACE::2021-06-17.00:04:03::SCWSystem::Clearing the existing sysconfig
+TRACE::2021-06-17.00:04:03::SCWMssOS::Removing the swdes entry for  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:03::SCWSystem::Clearing the domains completed.
+TRACE::2021-06-17.00:04:03::SCWPlatform::Clearing the opened hw db.
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform location is C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Removing the HwDB with name C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:03::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:03::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-06-17.00:04:04::SCWPlatform::Opened new HwDB with name m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWReader::Active system found as  m3_for_arty_a7
+TRACE::2021-06-17.00:04:04::SCWReader::Handling sysconfig m3_for_arty_a7
+TRACE::2021-06-17.00:04:04::SCWDomain::checking for install qemu data   : 
+TRACE::2021-06-17.00:04:04::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:04::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:04::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:04::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:04::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:04::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:04::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:04::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:04::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:04::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:04::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:04::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:04::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:04::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-06-17.00:04:04::SCWMssOS::No sw design opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:04::SCWMssOS::mss exists loading the mss file  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:04::SCWMssOS::Opened the sw design from mss  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:04::SCWMssOS::Adding the swdes entry C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-06-17.00:04:04::SCWMssOS::updating the scw layer about changes
+TRACE::2021-06-17.00:04:04::SCWMssOS::Opened the sw design.  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:04::SCWMssOS::Saving the mss changes C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-17.00:04:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-17.00:04:04::SCWMssOS::Commit changes completed.
+TRACE::2021-06-17.00:04:04::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-06-17.00:04:04::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-06-17.00:04:04::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:04:04::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:04:04::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:04:04::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:04:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:04:04::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:04:04::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:04:04::SCWReader::No isolation master present  
+LOG::2021-06-17.00:05:45::SCWPlatform::Started generating the artifacts platform m3_for_arty_a7
+TRACE::2021-06-17.00:05:45::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-06-17.00:05:45::SCWPlatform::Started generating the artifacts for system configuration m3_for_arty_a7
+LOG::2021-06-17.00:05:45::SCWSystem::Checking the domain standalone_domain
+LOG::2021-06-17.00:05:45::SCWSystem::Not a boot domain 
+LOG::2021-06-17.00:05:45::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-06-17.00:05:45::SCWDomain::Generating domain artifcats
+TRACE::2021-06-17.00:05:45::SCWMssOS::Generating standalone artifcats
+TRACE::2021-06-17.00:05:45::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-06-17.00:05:45::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:45::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:45::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:45::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:05:45::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:45::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:05:45::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:05:45::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:05:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:05:45::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:05:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:05:45::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:05:45::SCWMssOS::Completed writing the mss file at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp
+TRACE::2021-06-17.00:05:45::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:05:45::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-06-17.00:05:45::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-06-17.00:05:45::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2021-06-17.00:05:45::SCWMssOS::doing bsp build ... 
+TRACE::2021-06-17.00:05:45::SCWMssOS::System Command Ran  C: & cd  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp & make 
+TRACE::2021-06-17.00:05:45::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/bram_v4_4/src"
+
+TRACE::2021-06-17.00:05:45::SCWMssOS::make -C Cortex_M3_0/libsrc/bram_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMP
+TRACE::2021-06-17.00:05:45::SCWMssOS::ILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:45::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/cpu_cortexm3_v1_0/src"
+
+TRACE::2021-06-17.00:05:45::SCWMssOS::make -C Cortex_M3_0/libsrc/cpu_cortexm3_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-a
+TRACE::2021-06-17.00:05:45::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:45::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/gpio_v4_6/src"
+
+TRACE::2021-06-17.00:05:45::SCWMssOS::make -C Cortex_M3_0/libsrc/gpio_v4_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMP
+TRACE::2021-06-17.00:05:45::SCWMssOS::ILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:45::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/PmodESP32_v1_0/src"
+
+TRACE::2021-06-17.00:05:45::SCWMssOS::make -C Cortex_M3_0/libsrc/PmodESP32_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" 
+TRACE::2021-06-17.00:05:45::SCWMssOS::"COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/spi_v4_6/src"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::make -C Cortex_M3_0/libsrc/spi_v4_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPI
+TRACE::2021-06-17.00:05:46::SCWMssOS::LER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/standalone_v7_2/src"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::make -C Cortex_M3_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar"
+TRACE::2021-06-17.00:05:46::SCWMssOS:: "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/sysmon_v7_6/src"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::make -C Cortex_M3_0/libsrc/sysmon_v7_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "CO
+TRACE::2021-06-17.00:05:46::SCWMssOS::MPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/uartlite_v3_4/src"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::make -C Cortex_M3_0/libsrc/uartlite_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "
+TRACE::2021-06-17.00:05:46::SCWMssOS::COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/bram_v4_4/src"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::make -C Cortex_M3_0/libsrc/bram_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILE
+TRACE::2021-06-17.00:05:46::SCWMssOS::R_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:46::SCWMssOS::"Compiling bram"
+
+TRACE::2021-06-17.00:05:48::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/cpu_cortexm3_v1_0/src"
+
+TRACE::2021-06-17.00:05:48::SCWMssOS::make -C Cortex_M3_0/libsrc/cpu_cortexm3_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" 
+TRACE::2021-06-17.00:05:48::SCWMssOS::"COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:48::SCWMssOS::"Compiling cpu_cortexm3"
+
+TRACE::2021-06-17.00:05:48::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/gpio_v4_6/src"
+
+TRACE::2021-06-17.00:05:48::SCWMssOS::make -C Cortex_M3_0/libsrc/gpio_v4_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILE
+TRACE::2021-06-17.00:05:48::SCWMssOS::R_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:48::SCWMssOS::"Compiling gpio"
+
+TRACE::2021-06-17.00:05:49::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/PmodESP32_v1_0/src"
+
+TRACE::2021-06-17.00:05:49::SCWMssOS::make -C Cortex_M3_0/libsrc/PmodESP32_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "CO
+TRACE::2021-06-17.00:05:49::SCWMssOS::MPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:49::SCWMssOS::"Compiling PmodXXXX..."
+
+TRACE::2021-06-17.00:05:50::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/spi_v4_6/src"
+
+TRACE::2021-06-17.00:05:50::SCWMssOS::make -C Cortex_M3_0/libsrc/spi_v4_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER
+TRACE::2021-06-17.00:05:50::SCWMssOS::_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:50::SCWMssOS::"Compiling spi"
+
+TRACE::2021-06-17.00:05:51::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/standalone_v7_2/src"
+
+TRACE::2021-06-17.00:05:51::SCWMssOS::make -C Cortex_M3_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "C
+TRACE::2021-06-17.00:05:51::SCWMssOS::OMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:51::SCWMssOS::"Compiling standalone"
+
+TRACE::2021-06-17.00:05:53::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/sysmon_v7_6/src"
+
+TRACE::2021-06-17.00:05:53::SCWMssOS::make -C Cortex_M3_0/libsrc/sysmon_v7_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPI
+TRACE::2021-06-17.00:05:53::SCWMssOS::LER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:53::SCWMssOS::"Compiling sysmon"
+
+TRACE::2021-06-17.00:05:54::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/uartlite_v3_4/src"
+
+TRACE::2021-06-17.00:05:54::SCWMssOS::make -C Cortex_M3_0/libsrc/uartlite_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COM
+TRACE::2021-06-17.00:05:54::SCWMssOS::PILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.00:05:54::SCWMssOS::"Compiling uartlite"
+
+TRACE::2021-06-17.00:05:55::SCWMssOS::'Finished building libraries'
+
+TRACE::2021-06-17.00:05:55::SCWMssOS::Copying to export directory.
+TRACE::2021-06-17.00:05:55::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-06-17.00:05:55::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-06-17.00:05:55::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-06-17.00:05:55::SCWSystem::Completed Processing the sysconfig m3_for_arty_a7
+LOG::2021-06-17.00:05:55::SCWPlatform::Completed generating the artifacts for system configuration m3_for_arty_a7
+TRACE::2021-06-17.00:05:55::SCWPlatform::Started preparing the platform 
+TRACE::2021-06-17.00:05:55::SCWSystem::Writing the bif file for system config m3_for_arty_a7
+TRACE::2021-06-17.00:05:55::SCWSystem::dir created 
+TRACE::2021-06-17.00:05:55::SCWSystem::Writing the bif 
+TRACE::2021-06-17.00:05:55::SCWPlatform::Started writing the spfm file 
+TRACE::2021-06-17.00:05:55::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-06-17.00:05:55::SCWPlatform::Completed generating the platform
+TRACE::2021-06-17.00:05:55::SCWMssOS::Saving the mss changes C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:05:55::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-17.00:05:55::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-17.00:05:55::SCWMssOS::Commit changes completed.
+TRACE::2021-06-17.00:05:55::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:55::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:55::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:55::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:05:55::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:55::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:05:55::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:05:55::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:05:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:05:55::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:05:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:05:55::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:05:55::SCWWriter::formatted JSON is {
+	"platformName":	"m3_for_arty_a7",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"m3_for_arty_a7",
+	"platHandOff":	"V:/software/m3_for_arty_a7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/m3_for_arty_a7_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"m3_for_arty_a7",
+	"systems":	[{
+			"systemName":	"m3_for_arty_a7",
+			"systemDesc":	"m3_for_arty_a7",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"m3_for_arty_a7",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on Cortex_M3_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"Cortex_M3_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"05a65ae91b2723e4ba904deadb2a162c",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-06-17.00:05:55::SCWPlatform::updated the xpfm file.
+TRACE::2021-06-17.00:05:55::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:55::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:55::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:55::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.00:05:55::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.00:05:55::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.00:05:55::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:05:55::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper_1
+TRACE::2021-06-17.00:05:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.00:05:55::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.00:05:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.00:05:55::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:01:58::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:01:58::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:01:58::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.18:02:01::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-06-17.18:02:01::SCWPlatform::Opened new HwDB with name m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWReader::Active system found as  m3_for_arty_a7
+TRACE::2021-06-17.18:02:01::SCWReader::Handling sysconfig m3_for_arty_a7
+TRACE::2021-06-17.18:02:01::SCWDomain::checking for install qemu data   : 
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.18:02:01::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-06-17.18:02:01::SCWMssOS::No sw design opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWMssOS::mss exists loading the mss file  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWMssOS::Opened the sw design from mss  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWMssOS::Adding the swdes entry C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2021-06-17.18:02:01::SCWMssOS::updating the scw layer about changes
+TRACE::2021-06-17.18:02:01::SCWMssOS::Opened the sw design.  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWMssOS::Saving the mss changes C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-17.18:02:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-17.18:02:01::SCWMssOS::Commit changes completed.
+TRACE::2021-06-17.18:02:01::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-06-17.18:02:01::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.18:02:01::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.18:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWReader::No isolation master present  
+LOG::2021-06-17.18:02:01::SCWPlatform::Started generating the artifacts platform m3_for_arty_a7
+TRACE::2021-06-17.18:02:01::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-06-17.18:02:01::SCWPlatform::Started generating the artifacts for system configuration m3_for_arty_a7
+LOG::2021-06-17.18:02:01::SCWSystem::Checking the domain standalone_domain
+LOG::2021-06-17.18:02:01::SCWSystem::Not a boot domain 
+LOG::2021-06-17.18:02:01::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2021-06-17.18:02:01::SCWDomain::Generating domain artifcats
+TRACE::2021-06-17.18:02:01::SCWMssOS::Generating standalone artifcats
+TRACE::2021-06-17.18:02:01::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:01::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.18:02:01::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.18:02:01::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.18:02:01::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWMssOS::Completed writing the mss file at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp
+TRACE::2021-06-17.18:02:01::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:01::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-06-17.18:02:01::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-06-17.18:02:01::SCWDomain::Building the domain :  standalone_domain
+TRACE::2021-06-17.18:02:01::SCWMssOS::doing bsp build ... 
+TRACE::2021-06-17.18:02:01::SCWMssOS::System Command Ran  C: & cd  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp & make 
+TRACE::2021-06-17.18:02:01::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/bram_v4_4/src"
+
+TRACE::2021-06-17.18:02:01::SCWMssOS::make -C Cortex_M3_0/libsrc/bram_v4_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMP
+TRACE::2021-06-17.18:02:01::SCWMssOS::ILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:02::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/cpu_cortexm3_v1_0/src"
+
+TRACE::2021-06-17.18:02:02::SCWMssOS::make -C Cortex_M3_0/libsrc/cpu_cortexm3_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-a
+TRACE::2021-06-17.18:02:02::SCWMssOS::r" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:02::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/gpio_v4_6/src"
+
+TRACE::2021-06-17.18:02:02::SCWMssOS::make -C Cortex_M3_0/libsrc/gpio_v4_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMP
+TRACE::2021-06-17.18:02:02::SCWMssOS::ILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:02::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/PmodESP32_v1_0/src"
+
+TRACE::2021-06-17.18:02:02::SCWMssOS::make -C Cortex_M3_0/libsrc/PmodESP32_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" 
+TRACE::2021-06-17.18:02:02::SCWMssOS::"COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:02::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/spi_v4_6/src"
+
+TRACE::2021-06-17.18:02:02::SCWMssOS::make -C Cortex_M3_0/libsrc/spi_v4_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPI
+TRACE::2021-06-17.18:02:02::SCWMssOS::LER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:02::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/standalone_v7_2/src"
+
+TRACE::2021-06-17.18:02:02::SCWMssOS::make -C Cortex_M3_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar"
+TRACE::2021-06-17.18:02:02::SCWMssOS:: "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:03::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/sysmon_v7_6/src"
+
+TRACE::2021-06-17.18:02:03::SCWMssOS::make -C Cortex_M3_0/libsrc/sysmon_v7_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "CO
+TRACE::2021-06-17.18:02:03::SCWMssOS::MPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:03::SCWMssOS::"Running Make include in Cortex_M3_0/libsrc/uartlite_v3_4/src"
+
+TRACE::2021-06-17.18:02:03::SCWMssOS::make -C Cortex_M3_0/libsrc/uartlite_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "
+TRACE::2021-06-17.18:02:03::SCWMssOS::COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:03::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/bram_v4_4/src"
+
+TRACE::2021-06-17.18:02:03::SCWMssOS::make -C Cortex_M3_0/libsrc/bram_v4_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILE
+TRACE::2021-06-17.18:02:03::SCWMssOS::R_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:03::SCWMssOS::"Compiling bram"
+
+TRACE::2021-06-17.18:02:05::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/cpu_cortexm3_v1_0/src"
+
+TRACE::2021-06-17.18:02:05::SCWMssOS::make -C Cortex_M3_0/libsrc/cpu_cortexm3_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" 
+TRACE::2021-06-17.18:02:05::SCWMssOS::"COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:05::SCWMssOS::"Compiling cpu_cortexm3"
+
+TRACE::2021-06-17.18:02:05::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/gpio_v4_6/src"
+
+TRACE::2021-06-17.18:02:05::SCWMssOS::make -C Cortex_M3_0/libsrc/gpio_v4_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILE
+TRACE::2021-06-17.18:02:05::SCWMssOS::R_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:05::SCWMssOS::"Compiling gpio"
+
+TRACE::2021-06-17.18:02:06::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/PmodESP32_v1_0/src"
+
+TRACE::2021-06-17.18:02:06::SCWMssOS::make -C Cortex_M3_0/libsrc/PmodESP32_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "CO
+TRACE::2021-06-17.18:02:06::SCWMssOS::MPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:06::SCWMssOS::"Compiling PmodXXXX..."
+
+TRACE::2021-06-17.18:02:07::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/spi_v4_6/src"
+
+TRACE::2021-06-17.18:02:07::SCWMssOS::make -C Cortex_M3_0/libsrc/spi_v4_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER
+TRACE::2021-06-17.18:02:07::SCWMssOS::_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:07::SCWMssOS::"Compiling spi"
+
+TRACE::2021-06-17.18:02:09::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/standalone_v7_2/src"
+
+TRACE::2021-06-17.18:02:09::SCWMssOS::make -C Cortex_M3_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "C
+TRACE::2021-06-17.18:02:09::SCWMssOS::OMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:09::SCWMssOS::"Compiling standalone"
+
+TRACE::2021-06-17.18:02:12::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/sysmon_v7_6/src"
+
+TRACE::2021-06-17.18:02:12::SCWMssOS::make -C Cortex_M3_0/libsrc/sysmon_v7_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPI
+TRACE::2021-06-17.18:02:12::SCWMssOS::LER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:12::SCWMssOS::"Compiling sysmon"
+
+TRACE::2021-06-17.18:02:12::SCWMssOS::"Running Make libs in Cortex_M3_0/libsrc/uartlite_v3_4/src"
+
+TRACE::2021-06-17.18:02:12::SCWMssOS::make -C Cortex_M3_0/libsrc/uartlite_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COM
+TRACE::2021-06-17.18:02:12::SCWMssOS::PILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
+
+TRACE::2021-06-17.18:02:12::SCWMssOS::"Compiling uartlite"
+
+TRACE::2021-06-17.18:02:14::SCWMssOS::'Finished building libraries'
+
+TRACE::2021-06-17.18:02:14::SCWMssOS::Copying to export directory.
+TRACE::2021-06-17.18:02:14::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-06-17.18:02:14::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-06-17.18:02:14::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2021-06-17.18:02:14::SCWSystem::Completed Processing the sysconfig m3_for_arty_a7
+LOG::2021-06-17.18:02:14::SCWPlatform::Completed generating the artifacts for system configuration m3_for_arty_a7
+TRACE::2021-06-17.18:02:14::SCWPlatform::Started preparing the platform 
+TRACE::2021-06-17.18:02:14::SCWSystem::Writing the bif file for system config m3_for_arty_a7
+TRACE::2021-06-17.18:02:14::SCWSystem::dir created 
+TRACE::2021-06-17.18:02:14::SCWSystem::Writing the bif 
+TRACE::2021-06-17.18:02:14::SCWPlatform::Started writing the spfm file 
+TRACE::2021-06-17.18:02:14::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-06-17.18:02:14::SCWPlatform::Completed generating the platform
+TRACE::2021-06-17.18:02:14::SCWMssOS::Saving the mss changes C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-06-17.18:02:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-06-17.18:02:14::SCWMssOS::Commit changes completed.
+TRACE::2021-06-17.18:02:14::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:14::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:14::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:14::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.18:02:14::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:14::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.18:02:14::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:14::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.18:02:14::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.18:02:14::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:14::SCWWriter::formatted JSON is {
+	"platformName":	"m3_for_arty_a7",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"m3_for_arty_a7",
+	"platHandOff":	"V:/software/m3_for_arty_a7_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/m3_for_arty_a7_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"m3_for_arty_a7",
+	"systems":	[{
+			"systemName":	"m3_for_arty_a7",
+			"systemDesc":	"m3_for_arty_a7",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"m3_for_arty_a7",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on Cortex_M3_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"Cortex_M3_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"05a65ae91b2723e4ba904deadb2a162c",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-06-17.18:02:14::SCWPlatform::updated the xpfm file.
+TRACE::2021-06-17.18:02:14::SCWPlatform::Trying to open the hw design at C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:14::SCWPlatform::DSA given C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:14::SCWPlatform::DSA absoulate path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:14::SCWPlatform::DSA directory C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw
+TRACE::2021-06-17.18:02:14::SCWPlatform:: Platform Path C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa
+TRACE::2021-06-17.18:02:14::SCWPlatform:: Unique name xilinx:arty::0.0
+TRACE::2021-06-17.18:02:14::SCWPlatform::Trying to set the existing hwdb with name m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:14::SCWPlatform::Opened existing hwdb m3_for_arty_a7_wrapper
+TRACE::2021-06-17.18:02:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-06-17.18:02:14::SCWMssOS::Checking the sw design at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss
+TRACE::2021-06-17.18:02:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2021-06-17.18:02:14::SCWMssOS::Sw design exists and opened at  C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss

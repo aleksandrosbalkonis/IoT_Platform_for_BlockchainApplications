@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="&lt;None&gt;-offSet"/>
+	<item value="&lt;None&gt;" key="programflash.hwplatform"/>
+	<item value="" key="&lt;None&gt;-imgFile"/>
+	<item value="Auto Detect" key="&lt;None&gt;-device"/>
+	<item value="" key="&lt;None&gt;-fsblFile"/>
+	<item value="false" key="&lt;None&gt;-blankCheck"/>
+	<item value="Local" key="&lt;None&gt;-target"/>
+	<item value="false" key="&lt;None&gt;-verifyFlash"/>
+</section>

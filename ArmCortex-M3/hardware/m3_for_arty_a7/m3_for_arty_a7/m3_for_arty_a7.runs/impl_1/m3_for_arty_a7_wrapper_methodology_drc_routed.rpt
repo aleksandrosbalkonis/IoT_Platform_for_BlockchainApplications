@@ -1,0 +1,332 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jul 20 15:22:53 2021
+| Host         : LAPTOP-7C23HM8C running 64-bit major release  (build 9200)
+| Command      : report_methodology -file m3_for_arty_a7_wrapper_methodology_drc_routed.rpt -pb m3_for_arty_a7_wrapper_methodology_drc_routed.pb -rpx m3_for_arty_a7_wrapper_methodology_drc_routed.rpx
+| Design       : m3_for_arty_a7_wrapper
+| Device       : xc7s50csga324-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 38
++-----------+------------------+---------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                             | Violations |
++-----------+------------------+---------------------------------------------------------+------------+
+| TIMING-36 | Critical Warning | Invalid Generated Clock due to missing edge propagation | 1          |
+| CLKC-2    | Warning          | Clocking latency set by user                            | 1          |
+| LUTAR-1   | Warning          | LUT drives async reset alert                            | 3          |
+| TIMING-9  | Warning          | Unknown CDC Logic                                       | 1          |
+| TIMING-10 | Warning          | Missing property on synchronizer                        | 1          |
+| TIMING-18 | Warning          | Missing input or output delay                           | 1          |
+| XDCB-5    | Warning          | Runtime inefficient way to find pin objects             | 2          |
+| XDCH-2    | Warning          | Same min and max delay values on IO port                | 28         |
++-----------+------------------+---------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-36#1 Critical Warning
+Invalid Generated Clock due to missing edge propagation  
+There is no rising/falling edge propagation between master clock qspi_clk to generated clock cclk
+Related violations: <none>
+
+CLKC-2#1 Warning
+Clocking latency set by user  
+Clock cclk must not have the clock latency set when it is not propagated.
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Clocks_and_Resets/i_sysresetn_or/Res[0]_INST_0, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ABURST_reg[0]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[0]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[10]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[11]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[12]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[13]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[14]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[15]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[16]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[17]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[18]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[19]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[1]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[20]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_c_AhbSToAxi/uA11AhbLiteMToAxi/ADDR_reg[21]/CLR (the first 15 of 104 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_nvic/u_cm3_nvic_reg/base_addr[7]_i_2__6, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_icore_to_sys_valid_reg_reg/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_master_sel_reg[0]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_master_sel_reg[1]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_master_sel_reg[2]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_slave_sel_reg[0]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_slave_sel_reg[1]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_state_reg[0]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_state_reg[1]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_state_reg[2]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_state_reg[3]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_unalign_reg[0]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_unalign_reg[1]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/bm_unalign_reg[2]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/dcore_fpb_pend_reg/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_bus_matrix/u_cm3_mtx_bit_master/icore_fpb_pend_reg/CLR (the first 15 of 507 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_nvic/u_cm3_nvic_reg/dbg_restarted_reg_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[0]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[10]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[11]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[13]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[1]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[2]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[3]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[4]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[5]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[6]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[7]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[8]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[9]/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/allow_pc_write_reg/CLR,
+m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uCORTEXM3/u_cm3_dpu/u_cm3_dpu_fetch/u_cm3_dpu_fetch_ctl/FSM_onehot_state_reg[12]/PRE (the first 15 of 883 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
+Related violations: <none>
+
+TIMING-10#1 Warning
+Missing property on synchronizer  
+One or more logic synchronizer has been detected between 2 clock domains but the synchronizer does not have the property ASYNC_REG defined on one or both registers. It is recommended to run report_cdc for a complete and detailed CDC coverage
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on TDO[0] relative to clock(s) SWCLK
+Related violations: <none>
+
+XDCB-5#1 Warning
+Runtime inefficient way to find pin objects  
+The option '-source : [get_pins -hierarchical -filter {NAME =~ *axi_single_spi_0/sck_o}]' of constraint 'create_generated_clock' uses inefficient query to find pin objects (see constraint position '19' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 127)
+Related violations: <none>
+
+XDCB-5#2 Warning
+Runtime inefficient way to find pin objects  
+The option '-source : [get_pins -hierarchical -filter {NAME =~ *axi_xip_quad_spi_0/sck_o}]' of constraint 'create_generated_clock' uses inefficient query to find pin objects (see constraint position '18' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 124)
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'DAPLink_tri_o[12]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports {DAPLink_tri_o[12]}]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 273)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'DAPLink_tri_o[13]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports {DAPLink_tri_o[13]}]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 288)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'DAPLink_tri_o[8]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports {DAPLink_tri_o[8]}]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 286)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'dip_switches_4bits_tri_i[0]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports dip_switches*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 278)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'dip_switches_4bits_tri_i[1]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports dip_switches*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 278)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'dip_switches_4bits_tri_i[2]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports dip_switches*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 278)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'dip_switches_4bits_tri_i[3]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports dip_switches*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 278)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'push_buttons_4bits_tri_i[0]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports push_buttons*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 279)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'push_buttons_4bits_tri_i[1]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports push_buttons*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 279)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'push_buttons_4bits_tri_i[2]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports push_buttons*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 279)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'push_buttons_4bits_tri_i[3]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports push_buttons*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 279)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'reset' relative to clock cpu_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks cpu_clk] -add_delay 0.500 [get_ports reset*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 282)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same input delay of 0.500 ns has been defined on port 'usb_uart_rxd' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports usb_uart_rxd]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 272)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'TDI' relative to clock SWCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks SWCLK] -add_delay 5.000 [get_ports TDI]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 260)
+Related violations: <none>
+
+XDCH-2#15 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'nTRST' relative to clock SWCLK for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks SWCLK] -add_delay 5.000 [get_ports nTRST]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 261)
+Related violations: <none>
+
+XDCH-2#16 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'DAPLink_tri_o[11]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports {DAPLink_tri_o[11]}]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 275)
+Related violations: <none>
+
+XDCH-2#17 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'led_4bits_tri_o[0]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports led_4bits*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 293)
+Related violations: <none>
+
+XDCH-2#18 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'led_4bits_tri_o[1]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports led_4bits*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 293)
+Related violations: <none>
+
+XDCH-2#19 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'led_4bits_tri_o[2]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports led_4bits*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 293)
+Related violations: <none>
+
+XDCH-2#20 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'led_4bits_tri_o[3]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports led_4bits*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 293)
+Related violations: <none>
+
+XDCH-2#21 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[0]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 294)
+Related violations: <none>
+
+XDCH-2#22 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[1]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 294)
+Related violations: <none>
+
+XDCH-2#23 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[2]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 294)
+Related violations: <none>
+
+XDCH-2#24 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[3]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 294)
+Related violations: <none>
+
+XDCH-2#25 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[4]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 294)
+Related violations: <none>
+
+XDCH-2#26 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'rgb_led_tri_o[5]' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports rgb_led*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 294)
+Related violations: <none>
+
+XDCH-2#27 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.500 ns has been defined on port 'usb_uart_txd' relative to clock slow_out_clk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks slow_out_clk] -add_delay 0.500 [get_ports usb_uart_txd]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 274)
+Related violations: <none>
+
+XDCH-2#28 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.000 ns has been defined on port 'TDO[0]' relative to clock SWCLK for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks SWCLK] -add_delay 5.000 [get_ports TDO*]
+V:/hardware/m3_for_arty_a7/constraints/m3_for_arty_a7.xdc (Line: 262)
+Related violations: <none>
+
+

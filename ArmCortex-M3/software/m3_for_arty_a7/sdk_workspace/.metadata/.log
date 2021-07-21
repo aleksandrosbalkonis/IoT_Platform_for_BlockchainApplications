@@ -1,0 +1,980 @@
+!SESSION 2021-06-16 23:46:46.400 -----------------------------------------------
+eclipse.buildId=2020.1
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\.metadata\.bak_0.log
+Created Time: 2021-06-16 23:57:26.104
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:57:26.105
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11053386213760894277/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:57:26.111
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11053386213760894277/m3_for_arty_a7_wrapper.xsa], Result: [null, {"Cortex_M3_0": {"standalone_v7_2": {"name": "standalone",
+"version": "7.2",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/bsp/standalone_v7_2",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:57:26.135
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11053386213760894277/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:57:26.138
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11053386213760894277/m3_for_arty_a7_wrapper.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Wed Jun 16 22:58:52 2021",
+"vivado_version": "2020.1",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:57:32.360
+!MESSAGE XSCT Command: [platform create -name {m3_for_arty_a7} -hw {V:\software\m3_for_arty_a7_wrapper.xsa} -proc {Cortex_M3_0} -os {standalone} -out {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace};platform write], Thread: ModalContext
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-06-16 23:57:32.631
+!MESSAGE Indexed 'm3_for_arty_a7' (11 sources, 7 headers) in 0.077 sec: 338 declarations; 1,069 references; 28 unresolved inclusions; 0 syntax errors; 205 unresolved names (13%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:57:34.921
+!MESSAGE XSCT command with result: [platform create -name {m3_for_arty_a7} -hw {V:\software\m3_for_arty_a7_wrapper.xsa} -proc {Cortex_M3_0} -os {standalone} -out {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace};platform write], Result: [{Format=Could not create platform for standalone and Cortex_M3_0 
+ Failed to generate the bsp sources for domain.standalone_domain, Time=1623877054921, Code=1}, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:57:34.927
+!MESSAGE XSCT Command: [catch {platform remove m3_for_arty_a7}], Thread: Worker-3: Deleting platform 'm3_for_arty_a7'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:57:34.928
+!MESSAGE XSCT command with result: [catch {platform remove m3_for_arty_a7}], Result: [null, 1]. Thread: Worker-3: Deleting platform 'm3_for_arty_a7'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:57:37.697
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11053386213760894277/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:57:37.702
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11053386213760894277/m3_for_arty_a7_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:58:19.937
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:58:19.978
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-06-16 23:59:20.281
+!MESSAGE Opening file dialog using preferences. Current path: C:\Xilinx\Vitis\2020.1\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:36.866
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper15902753199846504121/m3_for_arty_a7_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:36.990
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper15902753199846504121/m3_for_arty_a7_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:37.011
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper15902753199846504121/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:37.019
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper15902753199846504121/m3_for_arty_a7_wrapper.xsa], Result: [null, {"Clocks_and_Resets_clk_wiz_0": {"hier_name": "Clocks_and_Resets_clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_i_interconnect_aresetn": {"hier_name": "Clocks_and_Resets_i_interconnect_aresetn",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_i_inv_dbgresetn": {"hier_name": "Clocks_and_Resets_i_inv_dbgresetn",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_i_inv_sysresetn1": {"hier_name": "Clocks_and_Resets_i_inv_sysresetn1",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_i_peripheral_aresetn1": {"hier_name": "Clocks_and_Resets_i_peripheral_aresetn1",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_i_sysresetn_or": {"hier_name": "Clocks_and_Resets_i_sysresetn_or",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_proc_sys_reset_DAPLink": {"hier_name": "Clocks_and_Resets_proc_sys_reset_DAPLink",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_proc_sys_reset_base": {"hier_name": "Clocks_and_Resets_proc_sys_reset_base",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_xlconstant_1": {"hier_name": "Clocks_and_Resets_xlconstant_1",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"Cortex_M3_0": {"hier_name": "Cortex_M3_0",
+"type": "CORTEXM3_AXI",
+"version": "1.1",
+"ip_type": "PROCESSOR",
+},
+"PmodESP32_0": {"hier_name": "PmodESP32_0",
+"type": "PmodESP32",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_bram_ctrl_0": {"hier_name": "axi_bram_ctrl_0",
+"type": "axi_bram_ctrl",
+"version": "4.1",
+"ip_type": "MEMORY_CNTLR",
+},
+"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_interconnect_0": {"hier_name": "axi_interconnect_0",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_quad_spi_0": {"hier_name": "axi_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"blk_mem_gen_0": {"hier_name": "blk_mem_gen_0",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"daplink_if_0_DAPLink_to_Arty_shield_0": {"hier_name": "daplink_if_0_DAPLink_to_Arty_shield_0",
+"type": "DAPLink_to_Arty_shield",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"daplink_if_0_axi_gpio_0": {"hier_name": "daplink_if_0_axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"daplink_if_0_axi_interconnect_0": {"hier_name": "daplink_if_0_axi_interconnect_0",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"daplink_if_0_axi_protocol_convert_0": {"hier_name": "daplink_if_0_axi_protocol_convert_0",
+"type": "axi_protocol_converter",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"daplink_if_0_axi_quad_spi_0": {"hier_name": "daplink_if_0_axi_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"daplink_if_0_axi_single_spi_0": {"hier_name": "daplink_if_0_axi_single_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"daplink_if_0_axi_xip_quad_spi_0": {"hier_name": "daplink_if_0_axi_xip_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"tri_io_buf_0": {"hier_name": "tri_io_buf_0",
+"type": "tri_io_buf",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"xadc_wiz_0": {"hier_name": "xadc_wiz_0",
+"type": "xadc_wiz",
+"version": "3.3",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_1": {"hier_name": "xlconcat_1",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"xlconstant_1": {"hier_name": "xlconstant_1",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:37.084
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper15902753199846504121/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:37.090
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper15902753199846504121/m3_for_arty_a7_wrapper.xsa], Result: [null, {"Cortex_M3_0": {"standalone_v7_2": {"name": "standalone",
+"version": "7.2",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/bsp/standalone_v7_2",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:37.112
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper15902753199846504121/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:37.115
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper15902753199846504121/m3_for_arty_a7_wrapper.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Wed Jun 16 22:58:52 2021",
+"vivado_version": "2020.1",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:45.908
+!MESSAGE XSCT Command: [platform create -name {m3_for_arty_a7} -hw {V:\software\m3_for_arty_a7_wrapper.xsa} -proc {Cortex_M3_0} -os {standalone} -out {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace};platform write], Thread: ModalContext
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-06-16 23:59:46.190
+!MESSAGE Indexed 'm3_for_arty_a7' (11 sources, 7 headers) in 0.076 sec: 338 declarations; 1,069 references; 28 unresolved inclusions; 0 syntax errors; 205 unresolved names (13%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:46.737
+!MESSAGE XSCT command with result: [platform create -name {m3_for_arty_a7} -hw {V:\software\m3_for_arty_a7_wrapper.xsa} -proc {Cortex_M3_0} -os {standalone} -out {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace};platform write], Result: [{Format=Could not create platform for standalone and Cortex_M3_0 
+ Failed to generate the bsp sources for domain.standalone_domain, Time=1623877186736, Code=1}, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:46.743
+!MESSAGE XSCT Command: [catch {platform remove m3_for_arty_a7}], Thread: Worker-3: Deleting platform 'm3_for_arty_a7'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:46.744
+!MESSAGE XSCT command with result: [catch {platform remove m3_for_arty_a7}], Result: [null, 1]. Thread: Worker-3: Deleting platform 'm3_for_arty_a7'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:49.076
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper15902753199846504121/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-16 23:59:49.080
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper15902753199846504121/m3_for_arty_a7_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:01:30.684
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:01:30.685
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: main
+!SESSION 2021-06-17 00:02:08.630 -----------------------------------------------
+eclipse.buildId=2020.1
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace
+
+!ENTRY org.eclipse.ui 4 4 2021-06-17 00:02:12.178
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.511
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.512
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.525
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.763
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.764
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.765
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.765
+!MESSAGE XSCT Command: [setws C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.766
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.772
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2020.1/data]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.773
+!MESSAGE XSCT command with result: [setws C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace], Result: [null, ]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.779
+!MESSAGE XSCT Command: [::hsi::utils::add_repo "C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/vivado/Arm_sw_repository"], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:02:17.838
+!MESSAGE XSCT command with result: [::hsi::utils::add_repo "C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/vivado/Arm_sw_repository"], Result: [null, ]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-06-17 00:03:43.552
+!MESSAGE Opening file dialog using preferences. Current path: C:\Xilinx\Vitis\2020.1\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:03:55.291
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11481807702999072903/m3_for_arty_a7_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:03:55.451
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11481807702999072903/m3_for_arty_a7_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:03:55.472
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11481807702999072903/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:03:55.482
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11481807702999072903/m3_for_arty_a7_wrapper.xsa], Result: [null, {"Clocks_and_Resets_clk_wiz_0": {"hier_name": "Clocks_and_Resets_clk_wiz_0",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_i_interconnect_aresetn": {"hier_name": "Clocks_and_Resets_i_interconnect_aresetn",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_i_inv_dbgresetn": {"hier_name": "Clocks_and_Resets_i_inv_dbgresetn",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_i_inv_sysresetn1": {"hier_name": "Clocks_and_Resets_i_inv_sysresetn1",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_i_peripheral_aresetn1": {"hier_name": "Clocks_and_Resets_i_peripheral_aresetn1",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_i_sysresetn_or": {"hier_name": "Clocks_and_Resets_i_sysresetn_or",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_proc_sys_reset_DAPLink": {"hier_name": "Clocks_and_Resets_proc_sys_reset_DAPLink",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_proc_sys_reset_base": {"hier_name": "Clocks_and_Resets_proc_sys_reset_base",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"Clocks_and_Resets_xlconstant_1": {"hier_name": "Clocks_and_Resets_xlconstant_1",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"Cortex_M3_0": {"hier_name": "Cortex_M3_0",
+"type": "CORTEXM3_AXI",
+"version": "1.1",
+"ip_type": "PROCESSOR",
+},
+"PmodESP32_0": {"hier_name": "PmodESP32_0",
+"type": "PmodESP32",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_bram_ctrl_0": {"hier_name": "axi_bram_ctrl_0",
+"type": "axi_bram_ctrl",
+"version": "4.1",
+"ip_type": "MEMORY_CNTLR",
+},
+"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_interconnect_0": {"hier_name": "axi_interconnect_0",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_quad_spi_0": {"hier_name": "axi_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"blk_mem_gen_0": {"hier_name": "blk_mem_gen_0",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"daplink_if_0_DAPLink_to_Arty_shield_0": {"hier_name": "daplink_if_0_DAPLink_to_Arty_shield_0",
+"type": "DAPLink_to_Arty_shield",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"daplink_if_0_axi_gpio_0": {"hier_name": "daplink_if_0_axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"daplink_if_0_axi_interconnect_0": {"hier_name": "daplink_if_0_axi_interconnect_0",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"daplink_if_0_axi_protocol_convert_0": {"hier_name": "daplink_if_0_axi_protocol_convert_0",
+"type": "axi_protocol_converter",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"daplink_if_0_axi_quad_spi_0": {"hier_name": "daplink_if_0_axi_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"daplink_if_0_axi_single_spi_0": {"hier_name": "daplink_if_0_axi_single_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"daplink_if_0_axi_xip_quad_spi_0": {"hier_name": "daplink_if_0_axi_xip_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"tri_io_buf_0": {"hier_name": "tri_io_buf_0",
+"type": "tri_io_buf",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"xadc_wiz_0": {"hier_name": "xadc_wiz_0",
+"type": "xadc_wiz",
+"version": "3.3",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_1": {"hier_name": "xlconcat_1",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"xlconstant_1": {"hier_name": "xlconstant_1",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:03:55.566
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11481807702999072903/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:03:55.573
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11481807702999072903/m3_for_arty_a7_wrapper.xsa], Result: [null, {"Cortex_M3_0": {"standalone_v6_7": {"name": "standalone",
+"version": "6.7",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/vivado/Arm_sw_repository/CortexM/bsp/standalone_v6_7",
+},
+"standalone_v7_2": {"name": "standalone",
+"version": "7.2",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/vivado/Arm_sw_repository/CortexM/bsp/standalone_v7_2",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:03:55.595
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11481807702999072903/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:03:55.598
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11481807702999072903/m3_for_arty_a7_wrapper.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Wed Jun 16 22:58:52 2021",
+"vivado_version": "2020.1",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:04:00.308
+!MESSAGE XSCT Command: [platform create -name {m3_for_arty_a7} -hw {V:\software\m3_for_arty_a7_wrapper.xsa} -proc {Cortex_M3_0} -os {standalone} -out {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace};platform write], Thread: ModalContext
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-06-17 00:04:00.405
+!MESSAGE Indexed 'm3_for_arty_a7' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:04:03.668
+!MESSAGE XSCT command with result: [platform create -name {m3_for_arty_a7} -hw {V:\software\m3_for_arty_a7_wrapper.xsa} -proc {Cortex_M3_0} -os {standalone} -out {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace};platform write], Result: [null, Successfully saved  the platform at "C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:04:03.860
+!MESSAGE XSCT Command: [platform read {C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\m3_for_arty_a7\platform.spr}], Thread: Worker-6: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:04:03.867
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa], Thread: Worker-3: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:04:04.149
+!MESSAGE XSCT command with result: [platform read {C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\m3_for_arty_a7\platform.spr}], Result: [null, ]. Thread: Worker-6: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:04:04.150
+!MESSAGE XSCT Command: [platform active {m3_for_arty_a7}], Thread: Worker-6: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:04:04.152
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa], Result: [null, ]. Thread: Worker-3: Initializing hardware specification UI...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:04:04.153
+!MESSAGE XSCT command with result: [platform active {m3_for_arty_a7}], Result: [null, ]. Thread: Worker-6: Initializing the platform to enable editing
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:04:04.304
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11481807702999072903/m3_for_arty_a7_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 00:04:04.311
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/chist/AppData/Local/Temp/hwspec_m3_for_arty_a7_wrapper11481807702999072903/m3_for_arty_a7_wrapper.xsa], Result: [null, ]. Thread: main
+!SESSION 2021-06-17 18:01:16.401 -----------------------------------------------
+eclipse.buildId=2020.1
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2021-06-17 18:01:43.818
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:49.214
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:49.215
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:49.227
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:53.531
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:53.532
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:53.532
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:53.533
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:53.548
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2020.1/data]. Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:53.549
+!MESSAGE XSCT Command: [setws C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:53.551
+!MESSAGE XSCT command with result: [setws C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:53.559
+!MESSAGE XSCT Command: [::hsi::utils::add_repo "C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/vivado/Arm_sw_repository"], Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-17 18:01:53.647
+!MESSAGE XSCT command with result: [::hsi::utils::add_repo "C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/vivado/Arm_sw_repository"], Result: [null, ]. Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 12:22:46.752
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 12:22:47.955
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 14:34:14.545
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 14:34:15.442
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 16:45:42.952
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 16:45:43.547
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 18:57:10.896
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 18:57:11.195
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 21:08:38.138
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 21:08:38.139
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 23:21:35.416
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-18 23:21:35.418
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 01:32:48.284
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 01:33:02.197
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 03:44:14.365
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 03:44:28.371
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 05:55:41.503
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 05:55:41.507
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 08:07:08.414
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 08:07:08.418
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 10:20:05.958
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 10:20:05.962
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 12:31:33.887
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 12:31:33.888
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 14:43:00.601
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 14:43:00.603
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 16:54:27.776
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 16:54:27.781
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 19:05:54.577
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 19:05:54.579
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 21:17:21.897
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 21:17:21.899
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 23:28:48.697
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-19 23:28:48.706
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-20 01:40:15.349
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-20 01:40:15.365
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-23 12:01:49.567
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-23 12:02:00.357
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)

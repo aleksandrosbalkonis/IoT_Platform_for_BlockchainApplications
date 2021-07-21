@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="m3_for_arty_a7"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+m3_for_arty_a7
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="m3_for_arty_a7">
+        <sdx:configuration sdx:name="m3_for_arty_a7"
+                           sdx:displayName="m3_for_arty_a7"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>m3_for_arty_a7</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="m3_for_arty_a7/boot/m3_for_arty_a7.bif"
+                            sdx:readme="m3_for_arty_a7/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on Cortex_M3_0"
+                                sdx:cpuType="Cortex_M3_0"
+                                sdx:cpuInstance="Cortex_M3_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="m3_for_arty_a7/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="m3_for_arty_a7/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="m3_for_arty_a7/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

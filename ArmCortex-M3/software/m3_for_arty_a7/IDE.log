@@ -1,0 +1,94 @@
+20:10:52 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7 contains spaces. Please switch to a workspace without spaces in its path.
+20:10:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:11:00 INFO  : Registering command handlers for Vitis TCF services
+20:11:16 INFO  : Platform repository initialization has completed.
+20:11:23 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:13:59 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+20:13:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:14:01 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:27:27 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7 contains spaces. Please switch to a workspace without spaces in its path.
+20:27:28 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:27:29 INFO  : Registering command handlers for Vitis TCF services
+20:27:31 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:27:32 INFO  : Platform repository initialization has completed.
+20:29:09 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7 contains spaces. Please switch to a workspace without spaces in its path.
+20:29:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:29:11 INFO  : Registering command handlers for Vitis TCF services
+20:29:13 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:29:14 INFO  : Platform repository initialization has completed.
+20:32:10 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+20:32:10 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:32:12 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:38:01 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7 contains spaces. Please switch to a workspace without spaces in its path.
+20:38:07 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:38:10 INFO  : Registering command handlers for Vitis TCF services
+20:38:20 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:38:26 INFO  : Platform repository initialization has completed.
+20:42:36 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7 contains spaces. Please switch to a workspace without spaces in its path.
+20:42:37 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:42:37 INFO  : Registering command handlers for Vitis TCF services
+20:42:39 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:42:40 INFO  : Platform repository initialization has completed.
+20:44:03 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7 contains spaces. Please switch to a workspace without spaces in its path.
+20:44:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:44:04 INFO  : Registering command handlers for Vitis TCF services
+20:44:08 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:44:09 INFO  : Platform repository initialization has completed.
+20:46:49 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7 contains spaces. Please switch to a workspace without spaces in its path.
+20:46:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:46:50 INFO  : Registering command handlers for Vitis TCF services
+20:46:52 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:46:53 INFO  : Platform repository initialization has completed.
+20:51:46 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7 contains spaces. Please switch to a workspace without spaces in its path.
+20:51:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:51:48 INFO  : Registering command handlers for Vitis TCF services
+20:51:49 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:51:51 INFO  : Platform repository initialization has completed.
+20:54:47 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+20:54:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:54:49 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:58:10 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7 contains spaces. Please switch to a workspace without spaces in its path.
+20:58:11 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+20:58:12 INFO  : Registering command handlers for Vitis TCF services
+20:58:13 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+20:58:15 INFO  : Platform repository initialization has completed.
+21:01:11 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:01:11 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+21:01:13 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:04:11 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:04:11 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+21:04:11 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+21:04:11 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+21:04:13 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:07:11 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:07:11 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+21:07:11 ERROR : xsct server communication channel is not established.
+21:07:13 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:10:11 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:10:11 ERROR : Failed to query RDI_DATADIR
+Reason: xsct server communication channel is not established.
+21:10:11 ERROR : Exception raised in executing the command =Failed to query RDI_DATADIR
+Reason: xsct server communication channel is not established. 
+21:13:04 INFO  : Saving repository preferences.
+21:13:04 INFO  : Reading in cores from global repositories: 
+		 C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\vivado\Arm_sw_repository
+21:13:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\temp_xsdb_launch_script.tcl
+21:13:06 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+

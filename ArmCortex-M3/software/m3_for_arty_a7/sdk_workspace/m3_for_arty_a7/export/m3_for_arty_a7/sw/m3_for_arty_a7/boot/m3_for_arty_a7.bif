@@ -1,0 +1,6 @@
+/*m3_for_arty_a7*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

@@ -1,0 +1,69 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[27]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[26]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[4]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[3]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[10]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[6]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[12]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[1]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[25]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[24]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[23]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[0]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[20]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[19]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[7]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[5]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[4]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[14]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[29]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[30]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[13]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[15]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[2]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[11]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[9]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[22]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[16]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[18]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[11]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[2]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[1]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[8]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[14]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[5]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[9]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[3]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[15]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[13]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/FSM_onehot_State_reg[21]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[17]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[0]/D|
+|                    SWCLK |                    SWCLK | m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[0]/D|
+|                    SWCLK |                    SWCLK | m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[2]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[7]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[10]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwjWatcher/FSM_onehot_State_cdc_check_reg[33]/D|
+|                    SWCLK |                    SWCLK |          m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/SerBank_reg/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[12]/D|
+|                    SWCLK |                    SWCLK | m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[5]/D|
+|                    SWCLK |                    SWCLK | m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[4]/D|
+|                    SWCLK |                    SWCLK |           m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/SerDir_reg/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[6]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPJtagDpProtocol/FSM_onehot_JTAGcurr_reg[8]/D|
+|                    SWCLK |                    SWCLK | m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[1]/D|
+|                    SWCLK |                    SWCLK |       m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/SerAddr_reg[1]/D|
+|                    SWCLK |                    SWCLK |         m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ErrorChk_reg/D|
+|                    SWCLK |                    SWCLK | m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[3]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[5]/CE|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[4]/CE|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[2]/CE|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[3]/CE|
+|                    SWCLK |                    SWCLK |      m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/WriteErrReg_reg/D|
+|                    SWCLK |                    SWCLK |     m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ShiftReg_reg[31]/D|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[0]/CE|
+|                    SWCLK |                    SWCLK |m3_for_arty_a7_i/Cortex_M3_0/inst/u_CORTEXM3INTEGRATION/uDAPSWJDP/uDAPSwDpProtocol/ResetCountReg_reg[1]/CE|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

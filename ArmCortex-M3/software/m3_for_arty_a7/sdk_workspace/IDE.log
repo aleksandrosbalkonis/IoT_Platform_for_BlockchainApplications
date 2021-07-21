@@ -1,0 +1,463 @@
+21:14:57 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace contains spaces. Please switch to a workspace without spaces in its path.
+21:14:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:14:59 INFO  : Registering command handlers for Vitis TCF services
+21:15:02 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:15:02 INFO  : Platform repository initialization has completed.
+21:17:59 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:17:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:17:59 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+21:17:59 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+21:18:01 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:20:59 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:20:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:20:59 ERROR : xsct server communication channel is not established.
+21:21:01 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:23:59 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:23:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:24:01 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:26:59 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:27:00 ERROR : Failed to query RDI_DATADIR
+Reason: xsct server communication channel is not established.
+21:27:00 ERROR : Exception raised in executing the command =Failed to query RDI_DATADIR
+Reason: xsct server communication channel is not established. 
+21:27:00 INFO  : Restoring global repository preferences: 
+		 C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\vivado\Arm_sw_repository
+21:27:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:27:02 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:30:00 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:31:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:31:41 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:34:39 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:34:39 ERROR : Failed to call rescan repo  
+Reason: xsct server communication channel is not established.
+21:34:39 ERROR : Internal Error while scanning repositories.
+21:34:47 INFO  : Saving repository preferences.
+21:14:09 ERROR : Workspace location C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace contains spaces. Please switch to a workspace without spaces in its path.
+21:14:15 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:14:18 INFO  : Registering command handlers for Vitis TCF services
+21:14:34 INFO  : Platform repository initialization has completed.
+21:14:38 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:17:16 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:17:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:17:17 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:20:16 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:20:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:20:16 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+21:20:16 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+21:20:17 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:23:16 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:23:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:23:16 ERROR : xsct server communication channel is not established.
+21:23:18 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:26:16 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:26:16 ERROR : Failed to query RDI_DATADIR
+Reason: xsct server communication channel is not established.
+21:26:16 ERROR : Exception raised in executing the command =Failed to query RDI_DATADIR
+Reason: xsct server communication channel is not established. 
+21:26:16 INFO  : Restoring global repository preferences: 
+		 C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\vivado\Arm_sw_repository
+21:26:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:26:18 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:29:16 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:47:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:47:26 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:50:25 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:50:25 ERROR : Failed to openhw "C:/Users/aleks/AppData/Local/Temp/hwspec_vck1904781591861464456817/vck190.xsa"
+Reason: xsct server communication channel is not established.
+21:50:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+21:50:27 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+21:53:25 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+21:53:25 ERROR : Failed to openhw "C:/Users/aleks/AppData/Local/Temp/hwspec_vck1904781591861464456817/vck190.xsa"
+Reason: xsct server communication channel is not established.
+22:07:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+22:07:19 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+22:10:18 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+22:10:18 ERROR : Failed to openhw "C:/Users/aleks/AppData/Local/Temp/hwspec_vck1903429285932236809703/vck190.xsa"
+Reason: xsct server communication channel is not established.
+22:10:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+22:10:19 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+22:12:27 ERROR : Failed to create project 'standalone_bsp_0'
+22:12:27 ERROR : An unexpected exception occurred in the module 'reading platform'
+22:13:18 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+22:13:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+22:13:18 ERROR : Failed to openhw "C:/Users/aleks/AppData/Local/Temp/hwspec_vck1905382482567217625652/vck190.xsa"
+Reason: xsct server communication channel is not established.
+22:13:19 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+22:16:18 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+22:16:18 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\aleks\Desktop\Diplomatikh\Arm Cortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+22:16:19 ERROR : (XSDB Server)couldn't read file "C:\Users\aleks\Desktop\Diplomatikh\Arm": no such file or directory
+
+22:16:20 ERROR : Failed to execute command 'catch {platform remove standalone_bsp_0}'. Click on details for more information.
+22:19:18 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+22:19:18 ERROR : Failed to create platform.
+12:55:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+12:55:03 INFO  : Registering command handlers for Vitis TCF services
+12:55:06 INFO  : XSCT server has started successfully.
+12:55:06 INFO  : plnx-install-location is set to ''
+12:55:06 INFO  : Successfully done setting XSCT server connection channel  
+12:55:06 INFO  : Successfully done query RDI_DATADIR 
+12:55:06 INFO  : Restoring global repository preferences: 
+		 E:\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+12:55:06 INFO  : Successfully done setting workspace for the tool. 
+12:55:06 INFO  : Platform repository initialization has completed.
+12:55:54 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+12:55:54 INFO  : Result from executing command 'getPlatforms': 
+12:56:41 INFO  : Successfully done sdx_reload_mss "E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss"
+11:47:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+11:47:05 INFO  : Registering command handlers for Vitis TCF services
+11:47:11 INFO  : Platform repository initialization has completed.
+11:47:12 INFO  : XSCT server has started successfully.
+11:47:12 INFO  : plnx-install-location is set to ''
+11:47:12 INFO  : Successfully done setting XSCT server connection channel  
+11:47:16 INFO  : Successfully done setting workspace for the tool. 
+11:47:16 INFO  : Successfully done query RDI_DATADIR 
+11:47:16 INFO  : Restoring global repository preferences: 
+		 E:\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+11:49:11 INFO  : Successfully done sdx_reload_mss "E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss"
+11:51:30 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+11:51:33 INFO  : XSCT server has started successfully.
+11:51:33 INFO  : plnx-install-location is set to ''
+11:51:33 INFO  : Successfully done query RDI_DATADIR 
+11:51:33 INFO  : Restoring global repository preferences: 
+		 E:\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+11:51:33 INFO  : Successfully done setting XSCT server connection channel  
+11:51:33 INFO  : Registering command handlers for Vitis TCF services
+11:51:34 INFO  : Successfully done setting workspace for the tool. 
+11:51:36 INFO  : Platform repository initialization has completed.
+11:54:22 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+11:54:22 INFO  : Result from executing command 'getPlatforms': 
+11:54:51 INFO  : Successfully done sdx_reload_mss "E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss"
+14:24:27 INFO  : Successfully done sdx_reload_mss "E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss"
+14:25:59 INFO  : Successfully done sdx_reload_mss "E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss"
+14:25:59 INFO  : No changes in MSS file content so sources will not be generated.
+14:52:08 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+14:52:08 INFO  : Result from executing command 'getPlatforms': m3_for_arty_a7|E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/export/m3_for_arty_a7/m3_for_arty_a7.xpfm
+16:13:02 ERROR : Could not get the saved dialog settings. null
+16:31:46 INFO  : (SwPlatform) Successfully done update_mss 
+16:31:46 INFO  : No changes in MSS file content so sources will not be generated.
+16:59:34 ERROR : Could not get the saved dialog settings. null
+14:27:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+14:27:29 INFO  : Registering command handlers for Vitis TCF services
+14:27:31 INFO  : XSCT server has started successfully.
+14:27:31 INFO  : plnx-install-location is set to ''
+14:27:35 INFO  : Platform repository initialization has completed.
+14:27:36 INFO  : Successfully done setting XSCT server connection channel  
+14:27:36 INFO  : Successfully done query RDI_DATADIR 
+14:27:36 INFO  : Successfully done setting workspace for the tool. 
+14:27:36 INFO  : Restoring global repository preferences: 
+		 E:\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+14:27:52 INFO  : Successfully done sdx_reload_mss "E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss"
+14:29:41 INFO  : Hardware specification for platform project 'm3_for_arty_a7' is updated.
+14:31:23 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+14:31:23 INFO  : Result from executing command 'getPlatforms': m3_for_arty_a7|E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/export/m3_for_arty_a7/m3_for_arty_a7.xpfm
+14:31:54 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+14:31:54 INFO  : Result from executing command 'getPlatforms': m3_for_arty_a7|E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/export/m3_for_arty_a7/m3_for_arty_a7.xpfm
+14:32:20 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+14:32:20 INFO  : Result from executing command 'getPlatforms': m3_for_arty_a7|E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/export/m3_for_arty_a7/m3_for_arty_a7.xpfm
+14:32:51 INFO  : Hardware specification for platform project 'm3_for_arty_a7' is updated.
+14:33:07 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+14:33:07 INFO  : Result from executing command 'getPlatforms': m3_for_arty_a7|E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/export/m3_for_arty_a7/m3_for_arty_a7.xpfm
+15:10:51 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+15:10:56 INFO  : XSCT server has started successfully.
+15:10:56 INFO  : plnx-install-location is set to ''
+15:10:56 INFO  : Registering command handlers for Vitis TCF services
+15:11:01 INFO  : Successfully done setting XSCT server connection channel  
+15:11:01 INFO  : Successfully done query RDI_DATADIR 
+15:11:01 INFO  : Successfully done setting workspace for the tool. 
+15:11:01 INFO  : Restoring global repository preferences: 
+		 E:\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+15:11:01 INFO  : Platform repository initialization has completed.
+15:12:36 INFO  : Projects exported to 'E:\Diplomatikh\ArmCortex-M3\software\vitis_export_archive.ide.zip'
+15:38:57 INFO  : Hardware specification for platform project 'm3_for_arty_a7' is updated.
+15:39:09 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+15:39:09 INFO  : Result from executing command 'getPlatforms': m3_for_arty_a7|E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/export/m3_for_arty_a7/m3_for_arty_a7.xpfm
+15:39:17 INFO  : Successfully done sdx_reload_mss "E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss"
+16:22:42 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+16:22:46 INFO  : Registering command handlers for Vitis TCF services
+16:22:48 INFO  : XSCT server has started successfully.
+16:22:48 INFO  : plnx-install-location is set to ''
+16:22:52 INFO  : Platform repository initialization has completed.
+16:22:52 INFO  : Successfully done setting XSCT server connection channel  
+16:22:52 INFO  : Successfully done query RDI_DATADIR 
+16:22:52 INFO  : Successfully done setting workspace for the tool. 
+16:22:52 INFO  : Restoring global repository preferences: 
+		 E:\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+16:29:28 INFO  : Result from executing command 'getProjects': m1_for_arty_s7;m3_for_arty_a7
+16:29:28 INFO  : Result from executing command 'getPlatforms': m3_for_arty_a7|E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/export/m3_for_arty_a7/m3_for_arty_a7.xpfm
+16:29:47 INFO  : Successfully done sdx_reload_mss "E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m1_for_arty_s7/CORTEXM1_AXI_0/standalone_domain/bsp/system.mss"
+16:31:10 INFO  : Result from executing command 'getProjects': m1_for_arty_s7;m3_for_arty_a7
+16:31:10 INFO  : Result from executing command 'getPlatforms': m1_for_arty_s7|E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m1_for_arty_s7/export/m1_for_arty_s7/m1_for_arty_s7.xpfm;m3_for_arty_a7|E:/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/export/m3_for_arty_a7/m3_for_arty_a7.xpfm
+10:20:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+10:20:08 INFO  : XSCT server has started successfully.
+10:20:08 INFO  : plnx-install-location is set to ''
+10:20:08 INFO  : Successfully done setting XSCT server connection channel  
+10:20:08 INFO  : Successfully done setting workspace for the tool. 
+10:20:09 INFO  : Registering command handlers for Vitis TCF services
+10:20:11 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+10:20:11 INFO  : Platform repository initialization has completed.
+10:20:12 INFO  : Successfully done query RDI_DATADIR 
+10:20:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm1 of version 1.1 not found in repositories
+
+10:20:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1594] Core cpu_cortexm1 of version 1.1 not found in repositories
+
+10:20:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm1 of version 1.1 not found in repositories
+
+10:20:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm1 of version 1.1 not found in repositories
+
+10:20:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1509] No active hardware design exist. set a hardware design first.
+
+10:20:25 ERROR : Failed to execute command 'platform read {C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\m1_for_arty_s7\platform.spr}'. Click on details for more information.
+10:21:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa is already opened
+
+10:21:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+10:21:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1509] No active hardware design exist. set a hardware design first.
+
+10:21:49 ERROR : Failed to execute command 'platform read {C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\m3_for_arty_a7\platform.spr}'. Click on details for more information.
+10:21:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+10:21:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+10:21:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+10:21:54 ERROR : Failed to execute command 'platform active {m3_for_arty_a7}'. Click on details for more information.
+10:22:52 INFO  : Saving repository preferences.
+10:22:52 INFO  : Reading in cores from global repositories: 
+		 C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+10:22:52 INFO  : Cleaning BSP projects in the workspace.
+10:22:54 INFO  : Saving repository preferences.
+10:23:35 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+10:23:37 INFO  : XSCT server has started successfully.
+10:23:37 INFO  : Successfully done setting XSCT server connection channel  
+10:23:37 INFO  : plnx-install-location is set to ''
+10:23:37 INFO  : Successfully done setting workspace for the tool. 
+10:23:37 INFO  : Successfully done query RDI_DATADIR 
+10:23:37 INFO  : Restoring global repository preferences: 
+		 C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+10:23:37 INFO  : Registering command handlers for Vitis TCF services
+10:23:39 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+10:23:39 INFO  : Platform repository initialization has completed.
+10:23:52 INFO  : Successfully done sdx_reload_mss "C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/Cortex_M3_0/standalone_domain/bsp/system.mss"
+12:47:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+12:47:37 INFO  : XSCT server has started successfully.
+12:47:37 INFO  : Registering command handlers for Vitis TCF services
+12:47:39 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+12:47:39 INFO  : Platform repository initialization has completed.
+12:47:39 INFO  : plnx-install-location is set to ''
+12:47:39 INFO  : Successfully done setting XSCT server connection channel  
+12:47:39 INFO  : Successfully done query RDI_DATADIR 
+12:47:39 INFO  : Successfully done setting workspace for the tool. 
+12:47:39 INFO  : Restoring global repository preferences: 
+		 C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+12:48:17 INFO  : Hardware specification for platform project 'm3_for_arty_a7' is updated.
+12:49:31 INFO  : Result from executing command 'getProjects': m1_for_arty_s7;m3_for_arty_a7
+12:49:31 INFO  : Result from executing command 'getPlatforms': 
+23:47:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+23:47:20 INFO  : XSCT server has started successfully.
+23:47:20 INFO  : Successfully done setting XSCT server connection channel  
+23:47:20 INFO  : plnx-install-location is set to ''
+23:47:20 INFO  : Successfully done setting workspace for the tool. 
+23:47:21 INFO  : Registering command handlers for Vitis TCF services
+23:47:23 INFO  : Platform repository initialization has completed.
+23:47:23 INFO  : Successfully done query RDI_DATADIR 
+23:47:23 INFO  : Restoring global repository preferences: 
+		 C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+23:48:29 INFO  : Hardware specification for platform project 'm3_for_arty_a7' is updated.
+23:50:30 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+23:50:32 INFO  : XSCT server has started successfully.
+23:50:32 ERROR : Failed to read xsa path
+23:51:01 ERROR : Failed to update hardware specification for project 'm3_for_arty_a7'.
+Reason: Failed to execute command 'platform config -updatehw {V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7_wrapper.xsa}'. Click on details for more information.
+23:51:24 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:51:24 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+23:51:24 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+
+23:51:24 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:51:24 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:51:24 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:51:24 ERROR : (XSDB Server)ERROR: [Hsi 55-1509] No active hardware design exist. set a hardware design first.
+
+23:51:24 ERROR : Failed to read platform from project 'm3_for_arty_a7'.
+Reason: Failed to execute command 'platform read {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/platform.spr}'. Click on details for more information.
+23:51:52 INFO  : Saving repository preferences.
+23:52:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:01 ERROR : (XSDB Server)ERROR: [Hsi 55-1509] No active hardware design exist. set a hardware design first.
+
+23:52:01 ERROR : Failed to read platform from project 'm3_for_arty_a7'.
+Reason: Failed to execute command 'platform read {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/platform.spr}'. Click on details for more information.
+23:52:34 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:34 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:34 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:34 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:34 ERROR : (XSDB Server)ERROR: [Hsi 55-1509] No active hardware design exist. set a hardware design first.
+
+23:52:34 ERROR : Failed to read platform from project 'm3_for_arty_a7'.
+Reason: Failed to execute command 'platform read {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/platform.spr}'. Click on details for more information.
+23:52:46 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:46 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:46 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:46 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:52:46 ERROR : (XSDB Server)ERROR: [Hsi 55-1509] No active hardware design exist. set a hardware design first.
+
+23:52:46 ERROR : Failed to read platform from project 'm3_for_arty_a7'.
+Reason: Failed to execute command 'platform read {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/platform.spr}'. Click on details for more information.
+23:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1592] Current Software Design is not set
+ERROR: [Hsi 55-1592] Current Software Design is not set
+
+23:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core cpu_cortexm3 of version 1.0 not found in repositories
+
+23:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1509] No active hardware design exist. set a hardware design first.
+
+23:54:55 ERROR : Failed to read platform from project 'm3_for_arty_a7'.
+Reason: Failed to execute command 'platform read {C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/platform.spr}'. Click on details for more information.
+23:56:38 WARN  : Failed to closehw "C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa"
+Reason: Cannot close hw design 'C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/hw/m3_for_arty_a7_wrapper.xsa'.
+Design is not opened in the current session.
+
+23:57:34 ERROR : (XSDB Server)ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v7_2::generate : ERROR: processor CORTEXM3_AXI is not supported
+    while executing
+"error "ERROR: processor $proctype is not supported""
+    (procedure "::sw_standalone_v7_2::generate" line 354)
+    invoked from within
+"::sw_standalone_v7_2::generate standalone"
+ERROR: [Hsi 55-1442] Error(s) while running TCL procedure generate()
+
+23:57:34 ERROR : Failed to create platform.
+23:59:46 ERROR : (XSDB Server)ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v7_2::generate : ERROR: processor CORTEXM3_AXI is not supported
+    while executing
+"error "ERROR: processor $proctype is not supported""
+    (procedure "::sw_standalone_v7_2::generate" line 354)
+    invoked from within
+"::sw_standalone_v7_2::generate standalone"
+
+23:59:46 ERROR : (XSDB Server)ERROR: [Hsi 55-1442] Error(s) while running TCL procedure generate()
+
+23:59:46 ERROR : Failed to create platform.
+00:01:11 INFO  : Saving repository preferences.
+00:01:12 INFO  : Saving repository preferences.
+00:01:13 INFO  : Saving repository preferences.
+00:01:13 INFO  : Saving repository preferences.
+00:01:13 INFO  : Saving repository preferences.
+00:01:13 INFO  : Saving repository preferences.
+00:01:13 INFO  : Saving repository preferences.
+00:01:13 INFO  : Saving repository preferences.
+00:01:30 INFO  : Saving repository preferences.
+00:01:30 INFO  : plnx-install-location is set to ''
+00:02:15 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+00:02:15 INFO  : Registering command handlers for Vitis TCF services
+00:02:17 INFO  : XSCT server has started successfully.
+00:02:17 INFO  : Successfully done setting XSCT server connection channel  
+00:02:17 INFO  : plnx-install-location is set to ''
+00:02:17 INFO  : Successfully done query RDI_DATADIR 
+00:02:17 INFO  : Successfully done setting workspace for the tool. 
+00:02:17 INFO  : Restoring global repository preferences: 
+		 C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+00:02:18 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+00:02:18 INFO  : Platform repository initialization has completed.
+00:04:03 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+00:04:03 INFO  : Result from executing command 'getPlatforms': 
+00:05:55 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+00:05:55 INFO  : Result from executing command 'getPlatforms': m3_for_arty_a7|C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/export/m3_for_arty_a7/m3_for_arty_a7.xpfm
+18:01:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\temp_xsdb_launch_script.tcl
+18:01:48 INFO  : Registering command handlers for Vitis TCF services
+18:01:49 INFO  : XSCT server has started successfully.
+18:01:52 INFO  : Platform repository initialization has completed.
+18:01:53 INFO  : plnx-install-location is set to ''
+18:01:53 INFO  : Successfully done setting XSCT server connection channel  
+18:01:53 INFO  : Successfully done query RDI_DATADIR 
+18:01:53 INFO  : Successfully done setting workspace for the tool. 
+18:01:53 INFO  : Restoring global repository preferences: 
+		 C:\Users\chist\Desktop\Diplomatikh\ArmCortex-M3\vivado\Arm_sw_repository
+18:02:14 INFO  : Result from executing command 'getProjects': m3_for_arty_a7
+18:02:14 INFO  : Result from executing command 'getPlatforms': m3_for_arty_a7|C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/software/m3_for_arty_a7/sdk_workspace/m3_for_arty_a7/export/m3_for_arty_a7/m3_for_arty_a7.xpfm

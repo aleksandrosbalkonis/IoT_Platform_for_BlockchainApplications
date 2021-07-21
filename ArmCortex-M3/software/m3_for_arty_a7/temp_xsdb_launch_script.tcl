@@ -1,0 +1,1 @@
+set xsdb_idle_timeout -1;source D:/RandomShit/Xilinx/VIVADO/Vitis/2020.1/scripts/xsdb/xsdb/xsdb-server.tcl

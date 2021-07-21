@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Jul 20 14:59:09 2021
+# Process ID: 7868
+# Current directory: C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/m3_for_arty_a7
+# Command line: vivado.exe -mode batch -source make_prog_files.tcl -notrace
+# Log file: C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/m3_for_arty_a7/vivado.log
+# Journal file: C:/Users/chist/Desktop/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/m3_for_arty_a7\vivado.jou
+#-----------------------------------------------------------
+source make_prog_files.tcl -notrace
+  Running updatemem ...
+
+****** updatemem v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vivado/2020.1/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3.mmi -data V:/hardware/m3_for_arty_a7/m3_for_arty_a7/bram_a7.elf -proc dummy -bit V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.runs/impl_1/m3_for_arty_a7_wrapper.bit -out m3_for_arty_a7.bit -force
+Loading bitfile V:/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.runs/impl_1/m3_for_arty_a7_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream m3_for_arty_a7.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1063.102 ; gain = 968.918
+INFO: [Common 17-206] Exiting updatemem at Tue Jul 20 14:59:25 2021...
+
+********************************************
+  m3_for_arty_a7.bit correctly generated
+********************************************
+
+Command: write_cfgmem -force -format MCS -size 16 -interface SPIx4 -loadbit { up 0 m3_for_arty_a7.bit} m3_for_arty_a7.mcs
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile m3_for_arty_a7.bit
+Writing file ./m3_for_arty_a7.mcs
+Writing log file ./m3_for_arty_a7.prm
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    Jul 20 14:59:25 2021    m3_for_arty_a7.bit
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+
+********************************************
+  m3_for_arty_a7.mcs correctly generated
+********************************************
+
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 20 14:59:27 2021...
