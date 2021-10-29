@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"KeyGeneratorTB_func_synth.v" \
+"../../../../../Blockchain.srcs/sim_1/new/KeyGeneratorTB.v" \
+
+# Do not sort compile order
+nosort

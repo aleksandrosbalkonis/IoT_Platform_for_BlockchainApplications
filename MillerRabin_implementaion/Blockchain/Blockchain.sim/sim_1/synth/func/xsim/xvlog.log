@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/synth/func/xsim/KeyGeneratorTB_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyGenerator
+INFO: [VRFC 10-311] analyzing module PrimeDetector
+INFO: [VRFC 10-311] analyzing module TestRam
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "V:/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sim_1/new/KeyGeneratorTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyGeneratorTB

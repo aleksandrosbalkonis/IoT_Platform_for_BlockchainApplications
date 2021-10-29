@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sources_1/new/KeyGenerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyGenerator
+INFO: [VRFC 10-2458] undeclared symbol waitCalc, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sources_1/new/KeyGenerator.v:100]
+INFO: [VRFC 10-2458] undeclared symbol numNotPrime, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sources_1/new/KeyGenerator.v:102]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PowerMod
+INFO: [VRFC 10-2458] undeclared symbol tempEmpty, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:175]
+INFO: [VRFC 10-2458] undeclared symbol isPrime, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:176]
+INFO: [VRFC 10-2458] undeclared symbol isPrime1, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:177]
+INFO: [VRFC 10-2458] undeclared symbol isPrime2, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:178]
+INFO: [VRFC 10-2458] undeclared symbol reappearance, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:180]
+INFO: [VRFC 10-2458] undeclared symbol calcing0, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:187]
+INFO: [VRFC 10-2458] undeclared symbol calcing1, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:195]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerModStep1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PowerModStep1
+INFO: [VRFC 10-2458] undeclared symbol interModSmall1, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerModStep1.v:113]
+INFO: [VRFC 10-2458] undeclared symbol interModSmall, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerModStep1.v:114]
+INFO: [VRFC 10-2458] undeclared symbol speedUp1, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerModStep1.v:115]
+INFO: [VRFC 10-2458] undeclared symbol speedUp2, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerModStep1.v:116]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sources_1/new/RandomNumGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RandomNumGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sim_1/new/KeyGeneratorTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyGeneratorTB

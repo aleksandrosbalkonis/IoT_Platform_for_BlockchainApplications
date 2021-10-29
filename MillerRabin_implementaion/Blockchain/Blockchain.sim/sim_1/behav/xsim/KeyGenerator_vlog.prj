@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Blockchain.srcs/sources_1/new/PrimeDetector.v" \
+"../../../../Blockchain.srcs/sources_1/new/RandomNumGen.v" \
+"../../../../Blockchain.srcs/sources_1/new/TestRam.v" \
+"../../../../Blockchain.srcs/sources_1/new/KeyGenerator.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

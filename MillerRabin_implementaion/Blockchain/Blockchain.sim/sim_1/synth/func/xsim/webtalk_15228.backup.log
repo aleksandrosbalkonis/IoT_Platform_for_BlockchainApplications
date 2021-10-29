@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 18 18:27:29 2021
+# Process ID: 15228
+# Current directory: V:/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/synth/func/xsim
+# Command line: wbtcv.exe -mode batch -source V:/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/synth/func/xsim/xsim.dir/KeyGenerator_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: V:/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: V:/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/synth/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source V:/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/synth/func/xsim/xsim.dir/KeyGenerator_func_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'V:/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/synth/func/xsim/xsim.dir/KeyGenerator_func_synth/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Mar 18 18:27:34 2021. For additional details about this file, please refer to the WebTalk help file at E:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Mar 18 18:27:34 2021...
