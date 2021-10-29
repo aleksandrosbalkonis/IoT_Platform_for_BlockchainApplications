@@ -1,0 +1,154 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Oct 19 21:22:29 2021
+# Process ID: 12852
+# Current directory: E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2108 E:\Diplomatikh\ArmCortex-M3\hardware\m3_for_arty_a7\Blockchain\Blockchain.xpr
+# Log file: E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/vivado.log
+# Journal file: E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.xpr
+WARNING: [Board 49-91] Board repository path 'C:/Users/aleks/Desktop/Diplomatikh/Arm_Cortex-M3/vivado/Digilent_board_files/vivado-boards-master/new' does not exist, it will not be used to search board files.
+INFO: [Project 1-313] Project file moved from 'V:/hardware/m3_for_arty_a7/Blockchain' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] Board Part Repository Path: Could not find the directory 'C:/Users/aleks/Desktop/Diplomatikh/Arm_Cortex-M3/vivado/Digilent_board_files/vivado-boards-master/new'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/ip_repo/MyKeyGenerator_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/ip_repo/MyKeyGenerator_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/ip_repo/MyKeyGenerator_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/aleks/Desktop/Diplomatikh/Arm Cortex-M3/vivado/Arm_ipi_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1080.000 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Tue Oct 19 21:23:25 2021] Launched synth_1...
+Run output will be captured here: E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7s50csga324-1
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 1272.699 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1456 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1377.020 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 1494.352 ; gain = 414.352
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'KeyGeneratorTB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj KeyGeneratorTB_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sources_1/new/KeyGenerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyGenerator
+INFO: [VRFC 10-2458] undeclared symbol waitCalc, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sources_1/new/KeyGenerator.v:100]
+INFO: [VRFC 10-2458] undeclared symbol numNotPrime, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sources_1/new/KeyGenerator.v:102]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PowerMod
+INFO: [VRFC 10-2458] undeclared symbol tempEmpty, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:175]
+INFO: [VRFC 10-2458] undeclared symbol isPrime, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:176]
+INFO: [VRFC 10-2458] undeclared symbol isPrime1, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:177]
+INFO: [VRFC 10-2458] undeclared symbol isPrime2, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:178]
+INFO: [VRFC 10-2458] undeclared symbol reappearance, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:180]
+INFO: [VRFC 10-2458] undeclared symbol calcing0, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:187]
+INFO: [VRFC 10-2458] undeclared symbol calcing1, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerMod.v:195]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerModStep1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PowerModStep1
+INFO: [VRFC 10-2458] undeclared symbol interModSmall1, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerModStep1.v:113]
+INFO: [VRFC 10-2458] undeclared symbol interModSmall, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerModStep1.v:114]
+INFO: [VRFC 10-2458] undeclared symbol speedUp1, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerModStep1.v:115]
+INFO: [VRFC 10-2458] undeclared symbol speedUp2, assumed default net type wire [E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/RandomGen/RandomGen.srcs/sources_1/new/PowerModStep1.v:116]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sources_1/new/RandomNumGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RandomNumGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.srcs/sim_1/new/KeyGeneratorTB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyGeneratorTB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/behav/xsim'
+"xelab -wto 85feb761d98447198a7623d929b314f8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot KeyGeneratorTB_behav xil_defaultlib.KeyGeneratorTB xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 85feb761d98447198a7623d929b314f8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot KeyGeneratorTB_behav xil_defaultlib.KeyGeneratorTB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PowerModStep1
+Compiling module xil_defaultlib.PowerMod
+Compiling module xil_defaultlib.RandomNumGen
+Compiling module xil_defaultlib.KeyGenerator
+Compiling module xil_defaultlib.KeyGeneratorTB
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot KeyGeneratorTB_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/behav/xsim/xsim.dir/KeyGeneratorTB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Oct 19 21:34:02 2021...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/Blockchain.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "KeyGeneratorTB_behav -key {Behavioral:sim_1:Functional:KeyGeneratorTB} -tclbatch {KeyGeneratorTB.tcl} -view {E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/KeyGeneratorTB_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+open_wave_config E:/Diplomatikh/ArmCortex-M3/hardware/m3_for_arty_a7/Blockchain/KeyGeneratorTB_behav.wcfg
+source KeyGeneratorTB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'KeyGeneratorTB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1894.059 ; gain = 38.125
+run 100 ms
+run: Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1927.797 ; gain = 0.000
+run 100 ms
+run: Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 1960.199 ; gain = 8.199
+run 100 ms
+run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1960.199 ; gain = 0.000
+run 100 ms
+run: Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1965.266 ; gain = 0.941
+run 100 ms
+run: Time (s): cpu = 00:00:39 ; elapsed = 00:00:48 . Memory (MB): peak = 1965.266 ; gain = 0.000
+run 100 ms
+run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1965.266 ; gain = 0.000
+run 100 ms
+run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1966.336 ; gain = 0.000
+run 100 ms
+run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1966.336 ; gain = 0.000
+run 100 ms
+run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1966.336 ; gain = 0.000
+run 100 ms
+run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1968.648 ; gain = 0.000
+run 100 ms
+run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1968.648 ; gain = 0.000
+run 100 ms

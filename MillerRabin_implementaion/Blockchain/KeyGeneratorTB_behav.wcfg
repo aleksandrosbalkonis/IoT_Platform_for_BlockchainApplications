@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="KeyGeneratorTB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="KeyGeneratorTB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1000341767fs"></ZoomStartTime>
+      <ZoomEndTime time="1000541168fs"></ZoomEndTime>
+      <Cursor1Time time="1000375000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="131"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wave_markers>
+      <marker time="18437825000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/KeyGeneratorTB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/signalKey" type="logic">
+      <obj_property name="ElementShortName">signalKey</obj_property>
+      <obj_property name="ObjectShortName">signalKey</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/resetKey" type="logic">
+      <obj_property name="ElementShortName">resetKey</obj_property>
+      <obj_property name="ObjectShortName">resetKey</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/primeValid" type="logic">
+      <obj_property name="ElementShortName">primeValid</obj_property>
+      <obj_property name="ObjectShortName">primeValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/privKey" type="array">
+      <obj_property name="ElementShortName">privKey[127:0]</obj_property>
+      <obj_property name="ObjectShortName">privKey[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/primeDetCS" type="logic">
+      <obj_property name="ElementShortName">primeDetCS</obj_property>
+      <obj_property name="ObjectShortName">primeDetCS</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/waitCalc" type="logic">
+      <obj_property name="ElementShortName">waitCalc</obj_property>
+      <obj_property name="ObjectShortName">waitCalc</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/pmod/pms0/interMod" type="array">
+      <obj_property name="ElementShortName">interMod[255:0]</obj_property>
+      <obj_property name="ObjectShortName">interMod[255:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/pmod/pms0/numberIn" type="array">
+      <obj_property name="ElementShortName">numberIn[127:0]</obj_property>
+      <obj_property name="ObjectShortName">numberIn[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/pmod/pms0/divisor" type="array">
+      <obj_property name="ElementShortName">divisor[255:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor[255:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/pmod/pms0/cs" type="logic">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/pmod/pms1/interMod" type="array">
+      <obj_property name="ElementShortName">interMod[255:0]</obj_property>
+      <obj_property name="ObjectShortName">interMod[255:0]</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/pmod/pms1/numberIn" type="array">
+      <obj_property name="ElementShortName">numberIn[127:0]</obj_property>
+      <obj_property name="ObjectShortName">numberIn[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/pmod/pms1/divisor" type="array">
+      <obj_property name="ElementShortName">divisor[255:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor[255:0]</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/pmod/pms1/cs" type="logic">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/pmod/step1" type="logic">
+      <obj_property name="ElementShortName">step1</obj_property>
+      <obj_property name="ObjectShortName">step1</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/KeyGeneratorTB/kgen/pmod/counter" type="array">
+      <obj_property name="ElementShortName">counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
