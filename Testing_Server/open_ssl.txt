@@ -1,0 +1,28 @@
+Signature Verification Commands:
+
+openssl dgst -sha256 -verify pubKey.der -keyform DER -signature signature.bin plain_text.txt
+
+_____________________________________________________________________________________________
+
+Key Generation Commands:
+
+openssl ecparam -name secp256k1 -genkey -noout -out key.pem
+openssl ec -in key.pem -pubout -outform DER -out public.der
+xxd -r -ps pubKey.der public.der
+xxd -r -ps signature.der signature.bin
+_____________________________________________________________________________________________
+
+Sign Document:
+
+openssl dgst -sha256 -sign key.pem plain_text.txt > signature.bin
+_____________________________________________________________________________________________
+
+Public Key Format:
+
+3056 3010 0607 2a86 48ce 3d02 0106 052b 8104 000a 0342 00 + Public Key 
+_____________________________________________________________________________________________
+
+Display KeyPair:
+
+openssl exparam -in public.der -text -param_enc explicit -noout > KeyPair.txt
+_____________________________________________________________________________________________
