@@ -40,6 +40,7 @@ static XGpio ESP32_Gpio_instance;	 /* The driver instance for the Esp32 GPIO*/
 
 
 bool UartRecv = ESP32_UART;
+u8 SwitchValue = 0x0;
 
 // Initialise the GPIO and zero the outputs
 int InitialiseGPIO( void )
@@ -148,8 +149,8 @@ void GPIO0_Handler ( void )
     // Read dip switches, change LEDs to match
     gpio_dip_switches = XGpio_DiscreteRead(&Gpio_Led_DIPSw, ARTY_A7_DIP_CHANNEL);   // Capture DIP status
     XGpio_DiscreteWrite(&Gpio_Led_DIPSw, ARTY_A7_LED_CHANNEL, gpio_dip_switches);   // Set LEDs
-
-		if(gpio_dip_switches == 1)
+		SwitchValue = gpio_dip_switches & 0x7;
+		if((gpio_dip_switches & 0x8) == 0x8)
 		{
 			UartRecv = ESP32_UART;
 		}
@@ -279,3 +280,9 @@ bool getUartRecv( void )
 {
 	return UartRecv;
 }
+
+u8 getSwitchValue( void )
+{
+	return SwitchValue;
+}
+

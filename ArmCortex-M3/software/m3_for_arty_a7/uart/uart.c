@@ -84,18 +84,13 @@ int InitialiseUART( void )
     return XST_SUCCESS;
 }
 
+//****************************************Arxikopoihsh Uart gia to esp32**********************************************//
 int InitialiseEsp32UART( )
 {
 	int Status;
 	XUartLite_Config *ConfigPtr;
-	
-	//for (int k = 0; k<30000000;k++);
-	
-	//XUartLite_WriteReg(ESP32_UART_instance.RegBaseAddress, XUL_CONTROL_REG_OFFSET,
-	//		Register | XUL_CR_FIFO_TX_RESET | XUL_CR_FIFO_RX_RESET);
 	ConfigPtr = XUartLite_LookupConfig(XPAR_AXI_UARTLITE_1_DEVICE_ID);
 	Status = XUartLite_CfgInitialize(&ESP32_UART_instance, ConfigPtr , XPAR_UARTLITE_1_BASEADDR);
-	//for (int k = 0; k<30000000;k++){}
   if (Status != XST_SUCCESS) {
       return XST_FAILURE;
   }
@@ -108,27 +103,19 @@ int InitialiseEsp32UART( )
 	
 	XUartLite_Recv(&ESP32_UART_instance, UARTReceiveBuffer, UART_BUFFER_SIZE);
 	
-	//Xil_ExceptionInit();
 
   return XST_SUCCESS;
 }
 
+//***********************Arxikopoihsh Interrupt handler apostolhs dedomenwn gia to esp32********************************//
 void EspSendHandler(void *CallBackRef, unsigned int EventData)
 {
 	//Do nothing
 }
 
+//***********************Arxikopoihsh Interrupt handler paralabhs dedomenwn gia to esp32********************************//
 void EspRecvHandler(void *CallBackRef, unsigned int EventData)
 {
-//	
-//		u8 recData[100];
-//		XUartLite * UartPtr = CallBackRef;
-//		
-//		ESP_Recv(recData, 10);
-//		while(XUartLite_IsSending(UartPtr)){}
-//		
-//		XUartLite_SetControlReg(UartPtr->RegBaseAddress, XUL_CR_FIFO_RX_RESET);
-	
 		test = 1;
     TotalReceivedCount = EventData;
 }
@@ -185,18 +172,15 @@ void UART0_Handler ( void )
     // IncLeds();
 
 }
+
+//*****************************Interrupt handler ths Uart gia to esp32**************************************//
 void ESP32_UART_Handler ( void )
 {
-		//print("ESP32 Uart Interrupt\r\n");
     XUartLite_InterruptHandler(&ESP32_UART_instance);
     NVIC_ClearPendingIRQ(ESP32_UART_IRQn);
-
-    // Test to indicate when the IRQ is called
-    // Used to detect received characters
-		//IncLeds();
-
 }
 
+//***********Methodos poy apothikeuei ta dedomena ston kataxwrhth apostolhs ths Uart tou esp32**************//
 int ESP_Send( u8 * atCommand ,int length, int sendType)
 {
 	int bytesSent;	
@@ -215,6 +199,7 @@ int ESP_Send( u8 * atCommand ,int length, int sendType)
 	return bytesSent;
 }
 	
+//***********Methodos poy diabazei ta dedomena ston kataxwrhth paralabhs ths Uart tou esp32****************//
 	int ESP_Recv(u8 * recData, int length)
 {
 	int recBytesSent;
@@ -225,12 +210,13 @@ int ESP_Send( u8 * atCommand ,int length, int sendType)
 	while(XUartLite_IsSending(&ESP32_UART_instance));
 	recBytesSent = XUartLite_Recv(&ESP32_UART_instance, recData, length);
 	while(XUartLite_IsSending(&ESP32_UART_instance));
-	//ESP32_GPIO_RTS(1);
 	
 	
 	return recBytesSent;
 }
 
+//***************Methodos poy diabazei ta dedomena ston kataxwrhth paralabhs ths Usb Uart*******************//
+//*Den apaiteitai paromoia methodos gia ton kataxwrhth paralbhs kathos diaxeirizetai apo thn methodo print**//
 int PC_Recv(u8 * recData, int length)
 {
 	int recBytesSent;
@@ -242,7 +228,6 @@ int PC_Recv(u8 * recData, int length)
 	while(XUartLite_IsSending(&UART0_instance));
 	recBytesSent = XUartLite_Recv(&UART0_instance, recData, length);
 	while(XUartLite_IsSending(&UART0_instance));
-	//ESP32_GPIO_RTS(1);
 	
 	
 	return recBytesSent;
@@ -251,6 +236,8 @@ int PC_Recv(u8 * recData, int length)
 
 
 
+//***********Methodos poy apothikeuei ta dedomena ston kataxwrhth apostolhw ths Uart tou esp32****************//
+//*************H sugkekrimenh methodos einai energopoieitai gia apostolh polu megalwn paketwn*q	****************//
 int bufferedUartSend1(u8 * data, int length) {
     u8 * cursor = data;
 		int bytesSent = 0;

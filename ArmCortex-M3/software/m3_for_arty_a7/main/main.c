@@ -41,6 +41,7 @@
 
 #include "xsysmon.h"
 
+
 //****************** From Pmod_HYGRO/NAV example begin **************//
 
 #define TIMER_FREQ_HZ 100000000
@@ -71,6 +72,7 @@ uint32_t atomic_test(uint32_t *mem, uint32_t val);
 
 int main (void)
 {
+		
     // Define local variables
     int     status;
     int     DAPLinkFittedn;
@@ -377,11 +379,8 @@ int main (void)
 				u8 ConnectCommand1[100];
 				sprintf((char *) RstCommand, "AT+RST\r\n");
 				sprintf((char *) ModeCommand, "AT+CWMODE=3\r\n");
-				//sprintf((char *) ConnectCommand, "AT+CWJAP=\"Kristal | 1click.al\",\"kristal001\"\r\n");
-				//sprintf((char *) ConnectCommand, "AT+CWJAP=\"CYTA6EDB\",\"542xQUb7NNcYrKYU\"\r\n");
-				sprintf((char *) ConnectCommand, "AT+CWJAP=\"Meazon-Fast\",\"m3aZ0n-2021\"\r\n");
-				sprintf((char *) ConnectCommand1, "AT+CWJAP=\"MEAZON-WIFI\",\"m3aZ0n-2015\"\r\n");
-				//sprintf(atCommand, "AT+CWJAP=\"WIND_95D89C\",\"fotini1498\"\r\n");
+				sprintf((char *) ConnectCommand, "AT+CWJAP=\"CYTA6EDB\",\"542xQUb7NNcYrKYU\"\r\n");
+	 
 //Init Xilix ADC
 				configPtr = XSysMon_LookupConfig(XPAR_XADC_WIZ_0_DEVICE_ID);
 				XSysMon_CfgInitialize(&xadc, configPtr,XPAR_XADC_WIZ_0_BASEADDR);
@@ -402,8 +401,6 @@ int main (void)
 				
 				Main_Loop();
 				
-				//IncLeds();
-				
     // Main loop.  Handle LEDs and switches via interrupt
   
 }
@@ -418,20 +415,32 @@ void Main_Loop(void)
 	int PCrecBytesSent = 0;
 	u8 PCrecData [128];
 	u8 recData [128];
-	//u8 ModeCommand[100];
-	//sprintf((char *) ModeCommand, "AT+CWMODE=3\r\n");
-	//int k = 0;
-	//int espCommand=0;
+	u8 testUart [20];
+	u8 recDataWord [20];
+	u8 sendCommand [5];
+	u8 strng [20];
+	bool print_once = false;
+	recDataWord[0] = NULL;
+	sprintf((char *)testUart, "test\r\n");
 	
 	while(1)
 	{
-//		if(getUartRecv())
-//		{
-//			if (k == 1)
-//			{
-//				print("ESP Uart is now active!!\r\n");
-//				k = 0;
-//			}
+		
+//Apostoli integer meso thw Uart o opoios anriprosopeuei thn timh twn switches//
+			if(getUartRecv() && print_once)
+			{
+				sprintf((char *)sendCommand, "%d\r\n", (int)getSwitchValue());
+				xil_printf("%s", sendCommand);
+				ESP_Send(sendCommand, strlen((char *) sendCommand), 0);
+				print_once = false;
+			}
+			else if(!getUartRecv() && !print_once)
+			{
+				print_once  = true;	
+			}
+
+//Handler poy energopoieitai otan kataxwrhths recv ths uart pou sundeei ton CM3 me to ESP32 exei dedomena//
+//*************************Metaferei ta dedomena pou lambanei sthn USB uart******************************//
 			recBytesSent = ESP_Recv(recData, 128);
 			if (recBytesSent != 0)
 			{
@@ -444,16 +453,12 @@ void Main_Loop(void)
 				xil_printf("%s", &recData[0]);
 				
 				recBytesSent = 0;
+				sprintf((char *)recDataWord, "%s%s", recDataWord, recData);
 				recData[0] = NULL;
 			}
-//		}
-//		else
-//		{
-//			if (k == 0)
-//			{
-//				print("PC Uart is now active!!\r\n");
-//				k = 1;
-//			}
+			
+//*************Handler pou energopoieitai otan o kataxwrhths recv ths usb uart exei dedomena*************//
+//*************************Metaferei ta dedomena pou lambanei sthn uart tou esp32************************//
 			PCrecBytesSent = PC_Recv(PCrecData, 128);
 			if (PCrecBytesSent != 0)
 			{
@@ -462,28 +467,30 @@ void Main_Loop(void)
 					print("Exceeded array limit\r\n");
 					break;
 				}
-				//if (PCrecData[0] == '0')
-				//{
-					//ESP_Send(ModeCommand, strlen((char *)ModeCommand),0);
-				//}
 				PCrecData[PCrecBytesSent] = NULL;
 				ESP_Send(PCrecData, strlen((char *)PCrecData),0);
-				//xil_printf("%s", &PCrecData[0]);
 				PCrecBytesSent = 0;
 				PCrecData[0] = NULL;
 			}
 			
-			
-	//		else if (recBytesSent != 0)
-	//		{
-	//			recData[recBytesSent] = NULL;
-	//			recBytesSent = 0;
-	//			xil_printf("%s\r\n", recData);
-	//			recData[0] = NULL;
-	//		}
-//	}
+//*******Energopoieitai otan entopizetai new line sta dedomena pou lambanontai apo thn Uart tou esp32*******//
+//Se periptwsh lhpseis tou katallhlou keimenou epistrefei thn antistoixh apanthsh ston kataxwrhth apostolhws//
+			if(recDataWord[strlen((char *)recDataWord)-1] == '\n')
+			{
+				if (!strcmp((char *) recDataWord,(char *)testUart))
+				{
+						sprintf((char *)strng, "Uart Working\r\n");
+						ESP_Send(strng, strlen((char *)strng),0);
+						recDataWord[0]= NULL;
+				}
+				else 
+				{
+						recDataWord[0] = NULL; 
+				}
+			}
 	}
 }
+
 
 void setUartRecv( int source )
 {

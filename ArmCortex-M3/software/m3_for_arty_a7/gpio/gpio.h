@@ -29,6 +29,7 @@ void IncLeds( void );
 void ClearLeds (void);
 void SetDAPLinkQSPIMode( u32 mode );
 bool getUartRecv( void );
+u8 getSwitchValue( void );
 
 // void GPIO0_Handler ( void );
 // void GPIO1_Handler ( void );
