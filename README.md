@@ -21,10 +21,6 @@ C:\Path...\<ProjectName>\ArmCortex-M3\vivado\Arm_ipi_repository
 On Vitis u need to add the following path to the projects repositories.
 cd C:\Path...\<ProjectName>\ArmCortex-M3\vivado\Arm_sw_repository
 
-Due to windows problems with path length I had to relocate a file cut or copy the file "C:\Path..\<ProjectName>\ArmCortex-M3\ip" 
-and paste it on this destination (The whole file not the contents!)
-C:\Path..\<ProjectName>\ArmCortex-M3\hardware\m3_for_arty_a7\m3_for_arty_a7\m3_for_arty_a7.ip_user_files\bd\m3_for_arty_a7\block_diagram
-
 For this project to run smooth you need to set up a Virtual drive "V" to the <ProjectName> folder, u can do that from Vivado tcl console with the following commands:
 C:\\Path...\\<ProjectName>
 exec subst V: .
