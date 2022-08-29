@@ -5,8 +5,9 @@ Uses ArtyS7-50 and pmod ESP32 to provide a microcontroller that provides the nec
 - Elliptic Curve: secp256k1 
 - Hash Functions: SHA256 
 
-FPGA Configuration (Necessary tools: Vivado2020.1, ArmKeil uvision, Vitis IDE, Serial Monitor)
+FPGA Configuration
 ---
+- Necessary tools: Vivado2020.1, ArmKeil uvision, Vitis IDE, Serial Monitor
 
 - U need the digilent Board Files downloaded on C:\Path...\<InstallationFolder>\Vivado\2020.1\data\boards\board_files 
 
