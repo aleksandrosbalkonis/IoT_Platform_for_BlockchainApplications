@@ -37,7 +37,7 @@ Also watch Arms Video Tutorial on CortexM processors for the Arty Boards to lear
 ESP32 Configuration
 ---
 
-#Compiling and Flashing the code on the esp32: -If the make shows up errors try following this guide: https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
+#Compiling and Flashing the code on the esp32: -If the make shows up errors try following [this guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
 
 - Just configure the makefile according to your PC paths.
 
@@ -71,3 +71,7 @@ Also replace the #include "src/group.h" on ecmult_static_context.h with #include
 
 After these steps compile and flash the code on the esp32 as instructed in the beggining.  
   
+Tech Stack:
+---
+- [Vivado2020.1](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html)
+- [ArmKeil uvision](https://www2.keil.com/mdk5/uvision/)
