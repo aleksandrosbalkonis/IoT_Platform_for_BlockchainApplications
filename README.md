@@ -2,10 +2,8 @@
 ----
 Uses ArtyS7-50 and pmod ESP32 to provide a microcontroller that provides the necessary tools to interruct with any Blockchain that uses:
 ---
-- Elliptic Curve: secp256k1
---
-- Hash Functions: SHA256
---
+- Elliptic Curve: secp256k1 --
+- Hash Functions: SHA256 --
 
 //--------------------------------------------------------------FPGA Configuration-----------------------------------------------------------------//
 
