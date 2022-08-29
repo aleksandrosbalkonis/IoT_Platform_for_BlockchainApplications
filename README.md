@@ -48,7 +48,7 @@ ESP32 Configuration
 
   - Run `make flash` to flash the code on the esp32
 
-- You can find more about the Makefile [here](https://github.com/plerup/makeEspArduino)
+  - You can find more about the Makefile [here](https://github.com/plerup/makeEspArduino)
 
 If you want to do this with the newest version of the secp256k1 code from bitcoin-core, or if you want to use other values for the EC multiplication tables, follow these instructions. My example uses ecmult-gen-precision=2 and ecmult-window=2.
 
