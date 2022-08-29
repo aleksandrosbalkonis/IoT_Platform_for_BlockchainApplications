@@ -5,7 +5,7 @@ Uses ArtyS7-50 and pmod ESP32 to provide a microcontroller that provides the nec
 - Elliptic Curve: secp256k1 
 - Hash Functions: SHA256 
 
-//--------------------------------------------------------------FPGA Configuration-----------------------------------------------------------------//
+FPGA Configuration
 ---
 
 Necessary tools: Vivado2020.1, ArmKeil uvision, Vitis IDE, Serial Monitor
@@ -34,7 +34,8 @@ C:\Path...\<ProjectName>\ArmCortex-M3\software\m3_for_arty_a7\sdk_workspace\stan
 Also watch Arms Video Tutorial on CortexM processors for the Arty Boards to learn how to coordinate between the tools.
 
 
-//--------------------------------------------------------------ESP32 Configuration-----------------------------------------------------------------//
+ESP32 Configuration
+---
 
 #Compiling and Flashing the code on the esp32: -If the make shows up errors try following this guide: https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
 
