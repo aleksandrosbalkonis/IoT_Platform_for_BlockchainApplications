@@ -6,6 +6,7 @@ Uses ArtyS7-50 and pmod ESP32 to provide a microcontroller that provides the nec
 - Hash Functions: SHA256 
 
 //--------------------------------------------------------------FPGA Configuration-----------------------------------------------------------------//
+---
 
 Necessary tools: Vivado2020.1, ArmKeil uvision, Vitis IDE, Serial Monitor
 
