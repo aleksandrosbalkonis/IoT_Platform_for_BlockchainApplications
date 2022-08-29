@@ -51,7 +51,7 @@ ESP32 Configuration
 
 If you want to do this with the newest version of the secp256k1 code from bitcoin-core, or if you want to use other values for the EC multiplication tables, follow these instructions. My example uses ecmult-gen-precision=2 and ecmult-window=2.
 
-#Updating the secp256k1 code:
+Updating the secp256k1 code:
 ---
 
 - Get the code from [here](https://github.com/bitcoin-core/secp256k1)
