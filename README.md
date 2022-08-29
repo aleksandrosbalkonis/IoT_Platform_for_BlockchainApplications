@@ -47,13 +47,13 @@ ESP32 Configuration
 
 - Run "make flash" to flash the code on the esp32
 
-- You can find more about the Makefile here https://github.com/plerup/makeEspArduino
+- You can find more about the Makefile [here](https://github.com/plerup/makeEspArduino)
 
 If you want to do this with the newest version of the secp256k1 code from bitcoin-core, or if you want to use other values for the EC multiplication tables, follow these instructions. My example uses ecmult-gen-precision=2 and ecmult-window=2.
 
 #Updating the secp256k1 code:
 
-- Get the code from here: https://github.com/bitcoin-core/secp256k1
+- Get the code from [here](https://github.com/bitcoin-core/secp256k1)
 
 - Run: ./autogen.sh
 
@@ -61,7 +61,7 @@ If you want to do this with the newest version of the secp256k1 code from bitcoi
 
 - Run make.
 
-- Get all the files from secp256k1/src directory and paste them on the "CurrentDirectory"/secp25k1_on_esp32/libs/ecdsa
+- Get all the files from secp256k1/src directory and paste them on the "CurrentDirectory"/secp256k1_on_esp32/libs/ecdsa
 
 - Get the files secp256k1.h secp256k1_preallocated.h from secp256k1/include directory and paste them on the "CurrentDirectory"/secp25k1_on_esp32/libs/ecdsa (We do this because the include directory will create problems later on our makefile)
 
