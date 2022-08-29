@@ -37,22 +37,23 @@ Also watch Arms Video Tutorial on CortexM processors for the Arty Boards to lear
 ESP32 Configuration
 ---
 
-- Compiling and Flashing the code on the esp32: -If the make shows up errors try following [this guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
+- Compiling and Flashing the code on the esp32: (If the make shows up errors try following [this guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html))
   --
 
 - Just configure the makefile according to your PC paths.
 
 - You also need arduino ide installed as well as the esp32 boards.
 
-- Run "make" to compile everything.
+- Run `make` to compile everything.
 
-- Run "make flash" to flash the code on the esp32
+- Run `make flash` to flash the code on the esp32
 
 - You can find more about the Makefile [here](https://github.com/plerup/makeEspArduino)
 
 If you want to do this with the newest version of the secp256k1 code from bitcoin-core, or if you want to use other values for the EC multiplication tables, follow these instructions. My example uses ecmult-gen-precision=2 and ecmult-window=2.
 
--- Updating the secp256k1 code:
+- Updating the secp256k1 code:
+  --
 
 - Get the code from [here](https://github.com/bitcoin-core/secp256k1)
 
