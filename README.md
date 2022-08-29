@@ -40,13 +40,13 @@ ESP32 Configuration
 - Compiling and Flashing the code on the esp32: (If make shows up errors try following [this guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html))
   --
 
-- Just configure the makefile according to your PC paths.
+  - Just configure the makefile according to your PC paths.
 
-- You also need arduino ide installed as well as the esp32 boards.
+  - You also need arduino ide installed as well as the esp32 boards.
 
-- Run `make` to compile everything.
+  - Run `make` to compile everything.
 
-- Run `make flash` to flash the code on the esp32
+  - Run `make flash` to flash the code on the esp32
 
 - You can find more about the Makefile [here](https://github.com/plerup/makeEspArduino)
 
@@ -55,23 +55,23 @@ If you want to do this with the newest version of the secp256k1 code from bitcoi
 - Updating the secp256k1 code:
   --
 
-- Get the code from [here](https://github.com/bitcoin-core/secp256k1)
+  - Get the code from [here](https://github.com/bitcoin-core/secp256k1)
 
-- Run: `./autogen.sh`
+  - Run: `./autogen.sh`
 
-- Run: `./configure --enable-ecmult-static-precomputation --with-ecmult-gen-precision=X --with-ecmult-window=Y` (X and Y exponentially increase the allocated space used for the EC multiplicatation to increase its speed. X = (2, 4, 8) Y = (2...24))
+  - Run: `./configure --enable-ecmult-static-precomputation --with-ecmult-gen-precision=X --with-ecmult-window=Y` (X and Y exponentially increase the allocated space used for the EC multiplicatation to increase its speed. X = (2, 4, 8) Y = (2...24))
 
-- Run `make`.
+  - Run `make`.
 
-- Get all the files from secp256k1/src directory and paste them on the "CurrentDirectory"/secp256k1_on_esp32/libs/ecdsa
+  - Get all the files from secp256k1/src directory and paste them on the "CurrentDirectory"/secp256k1_on_esp32/libs/ecdsa
 
-- Get the files secp256k1.h secp256k1_preallocated.h from secp256k1/include directory and paste them on the "CurrentDirectory"/secp25k1_on_esp32/libs/ecdsa (We do this because the include directory will create problems later on our makefile)
+  - Get the files secp256k1.h secp256k1_preallocated.h from secp256k1/include directory and paste them on the "CurrentDirectory"/secp25k1_on_esp32/libs/ecdsa (We do this because the include directory will create problems later on our makefile)
 
-- Check the includes of the secp256k1/src files (mostly the .c ones) and replace `#include "../include/secp256k1.h"` and `#include ../include /secp256k1_preallocated.h` with `#include "secp256k1.h"` `#include "secp256k1_preallocated.h"`.
+  - Check the includes of the secp256k1/src files (mostly the .c ones) and replace `#include "../include/secp256k1.h"` and `#include ../include /secp256k1_preallocated.h` with `#include "secp256k1.h"` `#include "secp256k1_preallocated.h"`.
 
-- Also replace the #include `"src/group.h"` on ecmult_static_context.h with `#include "group.h"`
+  - Also replace the #include `"src/group.h"` on ecmult_static_context.h with `#include "group.h"`
 
-- After these steps compile and flash the code on the esp32 as instructed in the beggining.  
+  - After these steps compile and flash the code on the esp32 as instructed in the beggining.  
   
 Tech Stack:
 ---
