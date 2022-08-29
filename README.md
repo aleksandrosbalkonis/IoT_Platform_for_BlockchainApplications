@@ -37,7 +37,8 @@ Also watch Arms Video Tutorial on CortexM processors for the Arty Boards to lear
 ESP32 Configuration
 ---
 
--- Compiling and Flashing the code on the esp32: -If the make shows up errors try following [this guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
+- Compiling and Flashing the code on the esp32: -If the make shows up errors try following [this guide](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
+  --
 
 - Just configure the makefile according to your PC paths.
 
